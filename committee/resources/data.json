@@ -1,0 +1,279 @@
+{
+  "Chief Patron": [
+    {
+      "name": "Dr. K. K. Shukla",
+      "designation": "Director, MANIT Bhopal",
+      "img": "nodata.png"
+    }
+  ],
+  "Patrons": [
+    {
+      "name": "Dr. S. P. S. Rajput",
+      "designation": "Dean (ID&IR), MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Nilay Khare",
+      "designation": "Dean (R&C), MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Shailendra Jain",
+      "designation": "Dean (SW), MANIT Bhopal",
+      "img": "nodata.png"
+    }
+  ],
+  "Honorary Chairs": [
+    {
+      "name": "Dr. G.S. Tomar",
+      "designation": "Director (RECS) & Chair IEEE M.P. Section",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. K. V. Arya",
+      "designation": "ABV- IIITM Gwalior",
+      "img": "nodata.png"
+    }
+  ],
+  "General Chairs": [
+    {
+      "name": "Dr. Deep Singh Tomar",
+      "designation": "HoD(CSE), MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Sushma Gupta",
+      "designation": "HoD (EE), MANIT Bhopal",
+      "img": "nodata.png"
+    }
+  ],
+  "General Co-Chairs": [
+    {
+      "name": "Dr. R. K. Pateria",
+      "designation": "MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Meenu Chawla",
+      "designation": "MANIT Bhopal",
+      "img": "nodata.png"
+    }
+  ],
+  "Secretaries": [
+    {
+      "name": "Dr. Yadunath Pathak",
+      "designation": "CSE, MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Vijay B. Semwal",
+      "designation": "CSE, MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Amit Ojha",
+      "designation": "ECE, MANIT Bhopal",
+      "img": "nodata.png"
+    }
+  ],
+  "Publicity & Technical Sessions Chairs": [
+    {
+      "name": "Dr. Mitul Ahirwal",
+      "designation": "CSE, MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Prashant Singh Rana",
+      "designation": "Thapar Patiala",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Surendra Suri",
+      "designation": "CSE, MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Ashish Kumar Sahu",
+      "designation": "CSE, MANIT Bhopal",
+      "img": "nodata.png"
+    }
+  ],
+  "Website Chairs": [
+    {
+      "name": "Dr. Rahul Chaurshiya",
+      "designation": "ECE, MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Vikram Garg",
+      "designation": "CSE, MANIT Bhopal",
+      "img": "nodata.png"
+    }
+  ],
+  "Hospitality & Registration Chairs": [
+    {
+      "name": "Dr. Akash Sinha",
+      "designation": "CSE, MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Vaibhav Soni",
+      "designation": "CSE, MANIT Bhopal",
+      "img": "nodata.png"
+    }
+  ],
+  "National Advisory Committee": [
+    {
+      "name": "Prof. Nitesh Purohit",
+      "designation": "IIIT Allahabad",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Satish Kumar Singh",
+      "designation": "IIIT Allahabad",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Anupam Shukla",
+      "designation": "VNIT Nagpur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Durga Prasad Mahapatra",
+      "designation": "NIT Rourkela",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Arun Kumar",
+      "designation": "NIT Rorukela",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Anup Nandy",
+      "designation": "NIT Rorukela",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Bhaskar Mondal",
+      "designation": "IIT BHU",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Rajeev Shrivastav",
+      "designation": "IIIT Ranchi",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Dheeresh K. Mallick",
+      "designation": "BIT Mesra",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Anil Kumar",
+      "designation": "IIIT Jabalpur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. N. D. Londhe",
+      "designation": "NIT Raipur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Rajesh Kumar",
+      "designation": "MNIT Jaipur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Pabitra Mohan Khilar",
+      "designation": "NIT Rourkela",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Pavan Chakraborty",
+      "designation": "IIIT Allahabad",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. J. L. Bhagoria",
+      "designation": "MANIT Bhopal",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. A. K. Tripathi",
+      "designation": "IIT BHU",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Phalguni Gupta",
+      "designation": "IIT Kanpur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Prabhat Munshi",
+      "designation": "IIT Kanpur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Ravi Kumar Mandhawa",
+      "designation": "IIITDM Kurnool",
+      "img": "nodata.png"
+    }
+  ],
+  "International Advisory Committee": [
+    {
+      "name": "Dr. Youngshik Kim",
+      "designation": "HNU, Daejon, South Korea",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Y. Aoustin",
+      "designation": "Nantes University, France",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Genci Capi",
+      "designation": "Hosei University, Japan",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Sachin Kumar",
+      "designation": "American University, Armenia",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Himanshu Shrivastava",
+      "designation": "Norwegian University of Science and Technology, Norway",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. A. K. Verma",
+      "designation": "Western Norway University of Applied Sciences, Bergen, Norway",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Xiao Zhi Gao",
+      "designation": "University of Eastern Finland, Finland",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Kalyanmoy Deb",
+      "designation": "Michigan State University, Michigan, USA",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Ruhul Sarker",
+      "designation": "University of New South Wales, Australia",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Sumit Kumar Jha",
+      "designation": "Florida International University Miami",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Patrick Siarry",
+      "designation": "Université Paris-Est Créteil Val de Marne, France",
+      "img": "nodata.png"
+    }
+  ]
+}
