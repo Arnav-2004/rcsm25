@@ -1283,3 +1283,70 @@ path {
     background-size: cover !important;
   }
 }
+
+/* Tracks Section */
+.tracks {
+  padding: 5rem 0;
+}
+
+.tracks h2 {
+  color: #00629b;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tracks h3 {
+  font-size: large;
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.track-card {
+  background: #ffffff;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.track-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #00629b, #00a3e0);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.track-card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.track-card:hover::before {
+  opacity: 0.1;
+}
+
+.track-card i {
+  font-size: 2.5rem;
+  color: #00629b;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.track-card:hover i {
+  transform: scale(1.2);
+  color: #ff6b00;
+}
