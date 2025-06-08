@@ -1,72 +1,68 @@
-let ls;
-fetch("/committee/resources/data.json").then((response) => {
-  response.json().then((data) => {
-    ls = data;
-    content = "<ul>";
-    for (let i = 0; i < Object.keys(ls).length; i++) {
-      content += `<li class="text-center"><a href="#${Object.keys(ls)[i]}">${
-        Object.keys(ls)[i]
-      }</a></li>`;
-    }
-    document.querySelector("#committee_category").innerHTML = content + "</ul>";
-    if (window.location.href.split("#").length > 1) {
-      load_committee(window.location.href.split("#")[1].replace(/%20/g, " "));
-    }
-  });
-});
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("/committee/resources/data.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const container = document.querySelector(".committee-container");
 
-const load_committee = (category) => {
-  let content = `<span class="committee_view"><button class="button is-primary is-light" id="goback">Go Back</button> <h3 class='is-size-3' style="color: black">${category}</h3></span><br><div id="members">`;
-  if (ls[category] == null) {
-    content = `
-        <h3 class="is-size-3 text-center">INVALID REQUEST RECIEVED. MEMBER TYPE ISN'T DEFINED</h3>
-    `;
-  } else {
-    document.querySelector("#committee_category").classList.add("hide");
-    document.querySelector("#committee_list").classList.remove("hide");
-  }
-  for (let i = 0; i < ls[category].length; i++) {
-    content += `
-    <div class="card">
-        <div class="card-content">
-            <div class="media">
-                <div class="media-left">
-                    <figure class="image is-48x48">
-                        ${
-                          ls[category][i].img != null &&
-                          ls[category][i].img != ""
-                            ? `<img src="${
-                                ls[category][i].img.search("http") != 0
-                                  ? "/committee/resources/images/"
-                                  : ""
-                              }${ls[category][i].img}" alt="${
-                                ls[category][i].name
-                              }" class="img-fluid">`
-                            : ""
-                        }
-                    </figure>
-                </div>
-                <div class="media-content">
-                    <p class="title is-4" style="color: black">${
-                      ls[category][i].name
-                    }</p>
-                    <p class="subtitle is-6">${ls[category][i].designation}</p>
-                </div>
-            </div>
-        </div>
-    </div>`;
-  }
-  document.querySelector("#committee_list").innerHTML = content + "</div>";
-  document.getElementById("committee_list").scrollIntoView();
-  document.querySelector("#goback").removeEventListener("click", () => {});
-  document.querySelector("#goback").addEventListener("click", () => {
-    document.querySelector("#committee_category").classList.remove("hide");
-    document.querySelector("#committee_list").classList.add("hide");
-    window.location.href = "#";
-  });
-};
+      for (const [category, members] of Object.entries(data)) {
+        // Create section for each committee category
+        const section = document.createElement("div");
+        section.className = "committee-section";
 
-window.addEventListener("popstate", function () {
-  console.log(window.location.href.split("#")[1]);
-  load_committee(window.location.href.split("#")[1].replace(/%20/g, " "));
+        // Add category title
+        const title = document.createElement("h2");
+        title.className = "has-text-centered";
+        title.textContent = category;
+        section.appendChild(title);
+
+        // Create grid for members
+        const grid = document.createElement("div");
+        grid.className = "members-grid";
+
+        // Add each member to the grid
+        members.forEach((member) => {
+          const card = document.createElement("div");
+          card.className = "member-card";
+
+          const content = `
+                        <div class="member-content">
+                            <div class="member-header">
+                                ${
+                                  member.img && member.img !== ""
+                                    ? `<img src="${
+                                        member.img.search("http") !== 0
+                                          ? "/committee/resources/images/"
+                                          : ""
+                                      }${member.img}" 
+                                        alt="${
+                                          member.name
+                                        }" class="member-image">`
+                                    : '<div class="member-image has-background-grey-light"></div>'
+                                }
+                                <div>
+                                    <p class="member-name">${member.name}</p>
+                                    <p class="member-designation">${
+                                      member.designation
+                                    }</p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+
+          card.innerHTML = content;
+          grid.appendChild(card);
+        });
+
+        section.appendChild(grid);
+        container.appendChild(section);
+      }
+    })
+    .catch((error) => {
+      console.error("Error loading committee data:", error);
+      document.querySelector(".committee-container").innerHTML = `
+                <div class="notification is-danger">
+                    Failed to load committee data. Please try again later.
+                </div>
+            `;
+    });
 });
