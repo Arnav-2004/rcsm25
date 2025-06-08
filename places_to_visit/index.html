@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RCSM25 | Places to Visit</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #ffa300;
+        --accent-color: #3498db;
+        --light-bg: #f8f9fa;
+        --dark-bg: #2c3e50;
+        --text-color: #333;
+        --text-light: #777;
+        --white: #ffffff;
+        --border-radius: 8px;
+        --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        --transition: all 0.3s ease;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--text-color);
+        line-height: 1.6;
+        background-color: var(--light-bg);
+      }
+
+      .auto-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .sec-title {
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .places-container {
+        background-color: var(--white);
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+        overflow: hidden;
+        margin-bottom: 40px;
+      }
+
+      .place-card {
+        display: flex;
+        border-bottom: 1px solid #eee;
+        transition: var(--transition);
+        padding: 25px;
+      }
+
+      .place-card:last-child {
+        border-bottom: none;
+      }
+
+      .place-card:hover {
+        background-color: var(--light-bg);
+        transform: translateY(-5px);
+      }
+
+      .place-image {
+        flex: 0 0 35%;
+        padding-right: 25px;
+        overflow: hidden;
+        border-radius: var(--border-radius);
+      }
+
+      .place-image img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: var(--border-radius);
+        transition: var(--transition);
+      }
+
+      .place-card:hover .place-image img {
+        transform: scale(1.05);
+      }
+
+      .place-content {
+        flex: 1;
+      }
+
+      .place-title {
+        color: var(--primary-color);
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        position: relative;
+        padding-bottom: 10px;
+      }
+
+      .place-title:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 50px;
+        height: 3px;
+        background-color: var(--secondary-color);
+      }
+
+      .place-description {
+        color: var(--text-light);
+        margin-bottom: 15px;
+      }
+
+      .learn-more {
+        display: inline-block;
+        color: var(--accent-color);
+        font-weight: 600;
+        text-decoration: none;
+        transition: var(--transition);
+      }
+
+      .learn-more:hover {
+        color: var(--primary-color);
+        text-decoration: underline;
+      }
+
+      .learn-more i {
+        margin-left: 5px;
+        transition: var(--transition);
+      }
+
+      .learn-more:hover i {
+        transform: translateX(3px);
+      }
+
+      /* Header styles */
+      header {
+        background-color: var(--white);
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .navbar-brand img {
+        height: 50px;
+      }
+
+      .nav-link {
+        font-weight: 500;
+        padding: 10px 15px;
+        color: var(--primary-color);
+      }
+
+      .nav-link:hover,
+      .nav-link.active {
+        color: var(--secondary-color);
+      }
+
+      .dropdown-menu {
+        border: none;
+        box-shadow: var(--box-shadow);
+        border-radius: var(--border-radius);
+      }
+
+      .dropdown-item {
+        padding: 8px 20px;
+        transition: var(--transition);
+      }
+
+      .dropdown-item:hover {
+        background-color: var(--light-bg);
+        color: var(--primary-color);
+      }
+
+      /* Footer styles */
+      .footer-top {
+        height: 10px;
+        background: linear-gradient(
+          90deg,
+          var(--secondary-color),
+          var(--accent-color)
+        );
+      }
+
+      .footer {
+        background-color: var(--dark-bg);
+        color: var(--white);
+        padding: 40px 0 20px;
+      }
+
+      .footer h4 {
+        color: var(--white);
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      .footer p {
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .ticket-btnlay-vol a {
+        background-color: var(--secondary-color);
+        color: var(--white);
+        padding: 10px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: var(--transition);
+        display: inline-block;
+      }
+
+      .ticket-btnlay-vol a:hover {
+        background-color: var(--accent-color);
+        transform: translateY(-3px);
+      }
+
+      .copyrights {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      /* Responsive styles */
+      @media (max-width: 992px) {
+        .place-card {
+          flex-direction: column;
+        }
+
+        .place-image {
+          flex: 1;
+          padding-right: 0;
+          margin-bottom: 20px;
+        }
+
+        .place-image img {
+          height: auto;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .place-card {
+          padding: 20px;
+        }
+
+        .place-title {
+          font-size: 20px;
+        }
+      }
+
+      /* Animation */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .place-card {
+        animation: fadeIn 0.5s ease forwards;
+        opacity: 0;
+      }
+
+      .place-card:nth-child(1) {
+        animation-delay: 0.1s;
+      }
+      .place-card:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      .place-card:nth-child(3) {
+        animation-delay: 0.3s;
+      }
+      .place-card:nth-child(4) {
+        animation-delay: 0.4s;
+      }
+      .place-card:nth-child(5) {
+        animation-delay: 0.5s;
+      }
+      .place-card:nth-child(6) {
+        animation-delay: 0.6s;
+      }
+    </style>
+    <link rel="icon" type="image/x-icon" href="../image/MANIT2.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <style>
+      @media (max-width: 980px) {
+        .csbclogo {
+          display: none;
+        }
+      }
+      @media (min-width: 1080px) {
+        nav {
+          max-width: fit-content;
+          right: -50px;
+          margin-left: -25px;
+        }
+        .navmobile {
+          display: none;
+        }
+      }
+    </style>
+    <style>
+      .shrink .col-lg-2 img {
+        width: auto !important;
+      }
+    </style>
+    <header>
+      <div class="container" style="max-width: 90rem">
+        <div class="row align-items-center">
+          <div class="col-lg-2 col-md-2 d-flex" style="gap: 40px">
+            <a href="/" class="no-focus csbclogo">
+              <img
+                src="../image/MANIT2.png"
+                alt="MANIT Logo"
+                width="50"
+                height="50"
+              />
+            </a>
+            <img
+              src="../image/Picture3.png"
+              alt="IEEE Logo"
+              class="csbclogo"
+              width="50"
+              height="50"
+            />
+          </div>
+          <div class="col-lg-8 col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a
+                  class="navbar-brand d-block d-lg-none"
+                  href="/"
+                  style="width: 100px !important"
+                >
+                  <img
+                    src="../image/MANIT2.png"
+                    alt="MANIT Logo"
+                    class="img-fluid"
+                  />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav m-auto align-items-center mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/"
+                        ><i class="fa fa-home" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Home
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="../about/index.html"
+                            >About</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../committee/index.html"
+                            >Committee</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="index.html"
+                            >Places to Visit</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Author Information
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="index.html"
+                            >Call for Papers</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../registration/index.html"
+                            >Registration Fee</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../important_dates/index.html"
+                            >Important Dates</a
+                          >
+                        </li>
+                        <li></li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../conference_tracks/index.html"
+                            >Conference Tracks</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="../instructions/index.html"
+                          >
+                            Instructions for Authors
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../schedule/index.html"
+                        >Schedule</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../keynote/index.html"
+                        >Speakers</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../contact/index.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                    <li class="nav-item navmobile">
+                      <a
+                        href="https://cmt3.research.microsoft.com/RCSM2025"
+                        target="_blank"
+                        class="btnhover"
+                        style="
+                          background-color: #ffa300;
+                          border: solid 1px black;
+                          border-radius: 4px;
+                          color: white;
+                          padding: 15px 12px;
+                          text-align: center;
+                          text-decoration: none;
+                          display: inline-block;
+                          font-size: 16px;
+                        "
+                        >Submit Paper</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="col-md-2 d-block" style="width: fit-content">
+            <style>
+              .btnhover:hover {
+                border-radius: 40px !important;
+              }
+            </style>
+            <div class="csbclogo">
+              <a
+                href="https://cmt3.research.microsoft.com/RCSM2025"
+                target="_blank"
+                class="btnhover"
+                style="
+                  background-color: #ffa300;
+                  border: solid 1px black;
+                  border-radius: 4px;
+                  color: white;
+                  padding: 15px 12px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;
+                "
+                >Submit Paper</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script>
+      // Get the current page URL
+      var currentUrl = window.location.pathname;
+
+      // Get all navigation links
+      var navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+      // Loop through each nav link
+      navLinks.forEach(function (link) {
+        // Check if the href of the link matches the current URL
+        if (link.getAttribute("href") === currentUrl) {
+          // Add the "active" class to the matching link
+          link.classList.add("active");
+        }
+      });
+    </script>
+
+    <section id="home" class="home section offset-header">
+      <div class="container" style="margin-top: 25px; margin-bottom: 25px">
+        <h2
+          class="title-1 text-center mb-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Places to Visit in Bhopal
+        </h2>
+        <div class="auto-container">
+          <div class="row">
+            <!-- Content Column -->
+            <div class="content-column col-lg-12 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <div class="sec-title">
+                  <div class="text" align="justify">
+                    <div class="places-container">
+                      <div class="place-card">
+                        <div class="place-image">
+                          <img
+                            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/a2/d4/15/the-main-stupa-in-early.jpg?w=1400&h=800&s=1"
+                            alt="Buddhist Monuments at Sanchi"
+                          />
+                        </div>
+                        <div class="place-content">
+                          <h3 class="place-title">
+                            Buddhist Monuments at Sanchi
+                          </h3>
+                          <p class="place-description">
+                            Sanchi's Buddhist monuments, a UNESCO World Heritage
+                            site, are renowned for their diverse and
+                            well-preserved architecture, including the Great
+                            Stupa, Ashokan pillars, and various temples and
+                            monasteries. The site dates back to the 3rd century
+                            BCE and is one of the oldest stone structures in
+                            India.
+                          </p>
+                          <a
+                            href="https://www.tripadvisor.in/Attraction_Review-g319726-d319972-Reviews-Buddhist_Monuments_at_Sanchi-Bhopal_Bhopal_District_Madhya_Pradesh.html"
+                            target="_blank"
+                            class="learn-more"
+                          >
+                            Learn more <i class="fas fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="place-card">
+                        <div class="place-image">
+                          <img
+                            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/4c/0d/7a/caption.jpg?w=1400&h=800&s=1"
+                            alt="Upper Lake"
+                          />
+                        </div>
+                        <div class="place-content">
+                          <h3 class="place-title">Upper Lake (Bhojtal)</h3>
+                          <p class="place-description">
+                            Bhojtal, also known as Upper Lake, is a large lake
+                            which lies on the western side of the capital city
+                            of Madhya Pradesh, Bhopal, India. It is a major
+                            source of drinking water for the residents of the
+                            city, serving around 40% of the residents with
+                            nearly 30 million imperial gallons of water per day.
+                            The lake is a beautiful spot for boating and sunset
+                            views.
+                          </p>
+                          <a
+                            href="https://www.tripadvisor.in/Attraction_Review-g319726-d1204906-Reviews-Upper_Lake-Bhopal_Bhopal_District_Madhya_Pradesh.html"
+                            target="_blank"
+                            class="learn-more"
+                          >
+                            Learn more <i class="fas fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="place-card">
+                        <div class="place-image">
+                          <img
+                            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/d9/90/ac/img-20190317-wa0012-largejpg.jpg?w=1100&h=-1&s=1"
+                            alt="Madhya Pradesh Tribal Museum"
+                          />
+                        </div>
+                        <div class="place-content">
+                          <h3 class="place-title">
+                            Madhya Pradesh Tribal Museum
+                          </h3>
+                          <p class="place-description">
+                            The Tribal Museum of Bhopal or Madhya Pradesh Tribal
+                            Museum is located close to the State Museum, Bhopal,
+                            near the Museum of Man/ Museum of Mankind in the
+                            Indian state of Madhya Pradesh. This is a museum
+                            dedicated to the living aspects of tribal life,
+                            indigenous knowledge systems, and aesthetics. It
+                            showcases the rich cultural heritage of tribal
+                            communities in Madhya Pradesh.
+                          </p>
+                          <a
+                            href="https://www.tripadvisor.in/Attraction_Review-g319726-d8425015-Reviews-Madhya_Pradesh_Tribal_Museum-Bhopal_Bhopal_District_Madhya_Pradesh.html"
+                            target="_blank"
+                            class="learn-more"
+                          >
+                            Learn more <i class="fas fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="place-card">
+                        <div class="place-image">
+                          <img
+                            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/b1/26/b9/caption.jpg?w=1100&h=600&s=1"
+                            alt="DB City Mall"
+                          />
+                        </div>
+                        <div class="place-content">
+                          <h3 class="place-title">DB City Mall</h3>
+                          <p class="place-description">
+                            Spread over 13 lacs sq.ft of floor space, "DB City"
+                            is one of the largest shopping centers in central
+                            India housing over 135 Indian & international brands
+                            & f&b outlets under one roof. It is the first
+                            shopping mall in Bhopal & city has witnessed its
+                            opening in Aug, 2010. Mall is Located at the gist of
+                            the central business district, one of the
+                            galvanizing territory of the city.
+                          </p>
+                          <a
+                            href="https://www.tripadvisor.in/Attraction_Review-g319726-d5782173-Reviews-DB_City_Mall-Bhopal_Bhopal_District_Madhya_Pradesh.html"
+                            target="_blank"
+                            class="learn-more"
+                          >
+                            Learn more <i class="fas fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="place-card">
+                        <div class="place-image">
+                          <img
+                            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/ab/fe/5e/lake-view-from-van-vihar.jpg?w=1200&h=700&s=1"
+                            alt="Van Vihar National Park"
+                          />
+                        </div>
+                        <div class="place-content">
+                          <h3 class="place-title">Van Vihar National Park</h3>
+                          <p class="place-description">
+                            Van Vihar National Park in Bhopal is a popular
+                            wildlife park and zoo offering a unique experience
+                            of connecting with nature and wildlife. It's a
+                            biodiversity hotspot, home to various plant and
+                            animal species, including free-ranging herbivores
+                            and captive carnivores. The park also plays a vital
+                            role in environmental health, acting as a carbon
+                            sink and helping to maintain a clean water supply.
+                          </p>
+                          <a
+                            href="https://www.tripadvisor.in/Attraction_Review-g319726-d3685363-Reviews-Van_Vihar_National_Park-Bhopal_Bhopal_District_Madhya_Pradesh.html"
+                            target="_blank"
+                            class="learn-more"
+                          >
+                            Learn more <i class="fas fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="place-card">
+                        <div class="place-image">
+                          <img
+                            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/73/d1/4a/indira-gandhi-rashtriya.jpg?w=1400&h=800&s=1"
+                            alt="National Museum of Mankind"
+                          />
+                        </div>
+                        <div class="place-content">
+                          <h3 class="place-title">
+                            Indira Gandhi Rashtriya Manav Sangrahalaya
+                          </h3>
+                          <p class="place-description">
+                            Also referred to as the National Museum of
+                            Humankind, or Museum of Man and Culture is a museum
+                            located in Bhopal, Madhya Pradesh, India. The museum
+                            spreads over an area of about 200 acres on the
+                            Shymala Hills in the city. This museum depicts the
+                            story of mankind in time and space. It is the
+                            largest ethnographic museum in India, showcasing the
+                            evolution of human culture and civilization.
+                          </p>
+                          <a
+                            href="https://www.tripadvisor.in/Attraction_Review-g319726-d2479152-Reviews-Indira_Gandhi_Rashtriya_Manav_Sangrahalaya_National_Museum_of_Mankind-Bhopal_Bhop.html"
+                            target="_blank"
+                            class="learn-more"
+                          >
+                            Learn more <i class="fas fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-top"></section>
+    <section class="footer position-relative">
+      <div class="container pt-5">
+        <div class="row align-items-center text-center text-md pt-5">
+          <div class="col-md-3 contact mb-5 mb-md-0 z-ind">
+            <h4 class="text-white">Organized By</h4>
+            <p class="text-white">
+              Dept. of Computer Science & Engineering and Dept. of Electrical
+              Engineering MANIT Bhopal, India
+            </p>
+          </div>
+          <div class="col-md-6 text-center pb-5">
+            <h1 class="title-1" style="font-size: large">
+              Recent Trends in Computing and Smart Mobility Conference
+            </h1>
+            <a
+              class="title-1"
+              style="font-size: medium"
+              href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/67767"
+              target="_blank"
+              >IEEE Conference Number: 67767</a
+            >
+          </div>
+
+          <div class="col-md-3 text-center z-ind">
+            <h4 class="text-white">Paper Submission</h4>
+            <p class="text-white">Submit your paper through Microsoft CMT</p>
+            <div class="ticket-btnlay-vol text-center pt-2">
+              <a
+                href="https://cmt3.research.microsoft.com/RCSM2025"
+                target="_blank"
+                >Submit Paper</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-12 text-center pt-5">
+            <p class="text-white">
+              © 2025 RCSM Conference. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/aos.js" rel="stylesheet"></script>
+    <script>
+      AOS.init({
+        once: "true",
+      });
+    </script>
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+  </body>
+</html>
