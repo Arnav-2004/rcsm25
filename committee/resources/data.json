@@ -16,11 +16,6 @@
       "name": "Dr. Nilay Khare",
       "designation": "Dean (R&C), MANIT Bhopal",
       "img": "nodata.png"
-    },
-    {
-      "name": "Dr. Shailendra Jain",
-      "designation": "Dean (SW), MANIT Bhopal",
-      "img": "nodata.png"
     }
   ],
   "Honorary Chairs": [
@@ -47,18 +42,6 @@
       "img": "nodata.png"
     }
   ],
-  "General Co-Chairs": [
-    {
-      "name": "Dr. R. K. Pateria",
-      "designation": "MANIT Bhopal",
-      "img": "nodata.png"
-    },
-    {
-      "name": "Dr. Meenu Chawla",
-      "designation": "MANIT Bhopal",
-      "img": "nodata.png"
-    }
-  ],
   "Secretaries": [
     {
       "name": "Dr. Yadunath Pathak",
@@ -78,13 +61,18 @@
   ],
   "Publicity & Technical Sessions Chairs": [
     {
-      "name": "Dr. Mitul Ahirwal",
-      "designation": "CSE, MANIT Bhopal",
+      "name": "Dr. Prashant Singh Rana",
+      "designation": "Thapar Patiala",
       "img": "nodata.png"
     },
     {
-      "name": "Dr. Prashant Singh Rana",
-      "designation": "Thapar Patiala",
+      "name": "Dr. Vivek Tiwari",
+      "designation": "CSE, ABV-IIITM Gwalior",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Mitul Ahirwal",
+      "designation": "CSE, MANIT Bhopal",
       "img": "nodata.png"
     },
     {
@@ -124,8 +112,93 @@
   ],
   "National Advisory Committee": [
     {
+      "name": "Prof. Anupam Shukla",
+      "designation": "Director, SVNIT Surat",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Karam Veer Arya",
+      "designation": "ABV-IIITM",
+      "img": "nodata.png"
+    },
+    {
       "name": "Prof. Nitesh Purohit",
       "designation": "IIIT Allahabad",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Arun Kumar",
+      "designation": "NIT Rourkela",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Anup Nandy",
+      "designation": "NIT Rourkela",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. A. K. Tripathi",
+      "designation": "IIT BHU",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Ram Bilas Pachori",
+      "designation": "IIT Indore",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Deepak Joshi",
+      "designation": "IIT Delhi",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Prof. Mukesh Singh",
+      "designation": "TIET",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Poonam Sharma",
+      "designation": "VNIT Nagpur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Ashish S. Tiwari",
+      "designation": "VNIT Nagpur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Prabhat Kumar Sharma",
+      "designation": "VNIT Nagpur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Prashanth PVN",
+      "designation": "VNIT Nagpur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Arvind Kumar",
+      "designation": "VNIT Nagpur",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Manish Kumar",
+      "designation": "IIIT Allahabad",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Somesh Kumar",
+      "designation": "ABV-IIITM Gwalior",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Pinku Ranjan",
+      "designation": "ABV-IIITM Gwalior",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Dr. Mahendra Shukla",
+      "designation": "ABV-IIITM Gwalior",
       "img": "nodata.png"
     },
     {
@@ -134,23 +207,8 @@
       "img": "nodata.png"
     },
     {
-      "name": "Prof. Anupam Shukla",
-      "designation": "VNIT Nagpur",
-      "img": "nodata.png"
-    },
-    {
       "name": "Prof. Durga Prasad Mahapatra",
       "designation": "NIT Rourkela",
-      "img": "nodata.png"
-    },
-    {
-      "name": "Dr. Arun Kumar",
-      "designation": "NIT Rorukela",
-      "img": "nodata.png"
-    },
-    {
-      "name": "Dr. Anup Nandy",
-      "designation": "NIT Rorukela",
       "img": "nodata.png"
     },
     {
@@ -196,11 +254,6 @@
     {
       "name": "Prof. J. L. Bhagoria",
       "designation": "MANIT Bhopal",
-      "img": "nodata.png"
-    },
-    {
-      "name": "Prof. A. K. Tripathi",
-      "designation": "IIT BHU",
       "img": "nodata.png"
     },
     {
@@ -267,7 +320,7 @@
     },
     {
       "name": "Dr. Sumit Kumar Jha",
-      "designation": "Florida International University Miami",
+      "designation": "Florida International University, Miami, USA",
       "img": "nodata.png"
     },
     {
