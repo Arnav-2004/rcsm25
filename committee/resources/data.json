@@ -55,7 +55,7 @@
     },
     {
       "name": "Dr. Amit Ojha",
-      "designation": "ECE, MANIT Bhopal",
+      "designation": "EE, MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOtT_yaeO-LmWZUHLyE_6WLst8rCJeJpiRQ&s"
     }
   ],
@@ -94,7 +94,7 @@
     },
     {
       "name": "Dr. Vikram Garg",
-      "designation": "CSE, MANIT Bhopal",
+      "designation": "AI, MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4oYWcn8-sUCcIpJa5wCrtusKN8qHlbYvCMQ&s"
     }
   ],
@@ -117,13 +117,8 @@
       "img": "https://www.svnit.ac.in/web/images/Prof.%20(Dr.)%20Anupam%20Shukla.png"
     },
     {
-      "name": "Prof. Karam Veer Arya",
-      "designation": "ABV-IIITM",
-      "img": "nodata.png"
-    },
-    {
       "name": "Prof. Nitesh Purohit",
-      "designation": "IIIT Allahabad",
+      "designation": "Director, SGIT, Indore",
       "img": "nitesh.png"
     },
     {
@@ -272,24 +267,9 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZVW4vk-udCbWfl8-xx-4BdqfCtVylsllShA&s"
     },
     {
-      "name": "Prof. J. L. Bhagoria",
-      "designation": "MANIT Bhopal",
-      "img": "nodata.png"
-    },
-    {
       "name": "Prof. Phalguni Gupta",
       "designation": "IIT Kanpur",
       "img": "https://www.cse.iitk.ac.in/users/pg/my_pic.jpg"
-    },
-    {
-      "name": "Prof. Prabhat Munshi",
-      "designation": "IIT Kanpur",
-      "img": "nodata.png"
-    },
-    {
-      "name": "Dr. Ravi Kumar Mandhawa",
-      "designation": "IIITDM Kurnool",
-      "img": "nodata.png"
     }
   ],
   "International Advisory Committee": [
