@@ -399,6 +399,11 @@
       "img": "nodata.png"
     },
     {
+      "name": "Jasminder Kaur Sandhu",
+      "designation": "IILM University,",
+      "img": "nodata.png"
+    },
+      {
       "name": "Faizan Ahmad",
       "designation": "Senior Manager, Amazon Ads",
       "img": "nodata.png"
@@ -409,18 +414,13 @@
       "img": "nodata.png"
     },
     {
-      "name": "Jahid Hassan",
-      "designation": "International American University",
-      "img": "nodata.png"
-    },
-    {
       "name": "Paras Choudhary",
       "designation": "Senior Manager, Amazon Ads",
       "img": "nodata.png"
     },
     {
-      "name": "Vishan Kumar Gupta",
-      "designation": "Amity University Punjab",
+      "name": "Jahid Hassan",
+      "designation": "International American University",
       "img": "nodata.png"
     },
     {
@@ -446,6 +446,11 @@
     {
       "name": "Nayan Goel",
       "designation": "Principle App Security Engineer",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Vishan Kumar Gupta",
+      "designation": "Amity University Punjab",
       "img": "nodata.png"
     },
     {
