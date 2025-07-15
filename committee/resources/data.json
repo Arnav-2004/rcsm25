@@ -1,14 +1,14 @@
 {
   "Chief Patron": [
     {
-      "name": "Dr. K. K. Shukla",
+      "name": "Dr. KK Shukla",
       "designation": "Director, MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeT38I-oawte9e_kStyLj0NULPuBq5Ph4XPw&s"
     }
   ],
   "Patrons": [
     {
-      "name": "Dr. S. P. S. Rajput",
+      "name": "Dr. SPS Rajput",
       "designation": "Dean (ID&IR), MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQofVTGBjHys9eDoERTRCgmQGIg4c0wfOc9tQ&s"
     },
@@ -20,19 +20,19 @@
   ],
   "Honorary Chairs": [
     {
-      "name": "Dr. G.S. Tomar",
+      "name": "Dr. GS Tomar",
       "designation": "Director (RECS) & Chair IEEE M.P. Section",
       "img": "https://ieeemp.org/img/Geetam%20Tomar.jpg"
     },
     {
-      "name": "Dr. K. V. Arya",
+      "name": "Dr. KV Arya",
       "designation": "ABV- IIITM Gwalior",
       "img": "https://www.iiitm.ac.in/images/demo/teachers/1718101905_KVARYA.jpg"
     }
   ],
   "General Chairs": [
     {
-      "name": "Dr. Deep Singh Tomar",
+      "name": "Dr. Deepak Singh Tomar",
       "designation": "HoD(CSE), MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV1QCF5R4bw33XyBJwhuMtNEXzf5sKjHjzcw&s"
     },
@@ -49,7 +49,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtU8dP9qOQND-Q1ZFWRJVgDjYlD5wENibDQ&s"
     },
     {
-      "name": "Dr. Vijay B. Semwal",
+      "name": "Dr. Vijay B Semwal",
       "designation": "CSE, MANIT Bhopal",
       "img": "vijay.png"
     },
@@ -127,7 +127,7 @@
       "img": "https://cbme.iitd.ac.in/public/storage/faculty_images/faculty_drGifR7Ctg.jpg"
     },
     {
-      "name": "Prof. N. D. Londhe",
+      "name": "Prof. ND Londhe",
       "designation": "NIT Raipur",
       "img": "nd.png"
     },
@@ -167,7 +167,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZVW4vk-udCbWfl8-xx-4BdqfCtVylsllShA&s"
     },
     {
-      "name": "Prof. A. K. Tripathi",
+      "name": "Prof. AK Tripathi",
       "designation": "IIT BHU",
       "img": "https://iitbhu.ac.in/sites/default/files/styles/medium/public/pictures/2022-09/unnamed.jpg?itok=oUMbtMd9"
     },
@@ -202,7 +202,7 @@
       "img": "https://vnit.ac.in/engineering/cse/wp-content/uploads/2024/05/MeeraDhabu_Photo_Sept23.jpg"
     },
     {
-      "name": "Dr. Dheeresh K. Mallick",
+      "name": "Dr. Dheeresh K Mallick",
       "designation": "BIT Mesra",
       "img": "https://irins.org/assets/profile_images/418896.jpg"
     },
@@ -237,7 +237,7 @@
       "img": "https://www.nitrkl.ac.in/docs/Faculty/Photo/1181329.jpg"
     },
     {
-      "name": "Dr. Ashish S. Tiwari",
+      "name": "Dr. Ashish S Tiwari",
       "designation": "VNIT Nagpur",
       "img": "ashish.png"
     },
@@ -365,16 +365,16 @@
     }
   ],
 
- "Technical Program Committee": [
+  "Technical Program Committee": [
     {
       "name": "Dr. Parteek Bhatia",
       "designation": "Washington State University, USA",
-      "img": ""
-      },
+      "img": "nodata.png"
+    },
     {
       "name": "Dr. Sanmeet Kaur",
       "designation": "Eastern Washington University, USA",
-      "img": ""
+      "img": "nodata.png"
     }
   ]
 }
