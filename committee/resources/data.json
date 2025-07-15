@@ -415,6 +415,26 @@
       "name": "Sangeeta Singh",
       "designation": "Independent Researcher",
       "img": "nodata.png"
+    },
+    {
+      "name": "Krishna Chaitanya Chaganti",
+      "designation": "Associate Director",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Aditya Vilas Deshpande",
+      "designation": "Senior Software Engineer",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Srinivasa Ravi Teja Peri",
+      "designation": "Principal Software Engineer",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Ashutosh Mahamuni",
+      "designation": "MFG Compliance Specialist",
+      "img": "nodata.png"
     }
   ]
 }
