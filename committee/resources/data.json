@@ -364,10 +364,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFg9fA6xQAl1Ju91WTw1Yo8S99k778RtkXw&s"
     }
   ],
-
   "Technical Program Committee": [
-    
-    
     {
       "name": "Akib Khandey",
       "designation": "Cluster University, Srinagar",
@@ -387,7 +384,7 @@
       "name": "Muskan Garg",
       "designation": "Mayo Clinic Rochester",
       "img": "nodata.png"
-    },  
+    },
     {
       "name": "Manoj Pal",
       "designation": "Artnet Worldwide Corporation",
@@ -403,7 +400,7 @@
       "designation": "IILM University,",
       "img": "nodata.png"
     },
-      {
+    {
       "name": "Faizan Ahmad",
       "designation": "Senior Manager, Amazon Ads",
       "img": "nodata.png"
@@ -428,7 +425,7 @@
       "designation": "Innovation Technologist, Equifax",
       "img": "nodata.png"
     },
-       {
+    {
       "name": "Sonali Suri",
       "designation": "Software Development Engineer",
       "img": "nodata.png"
@@ -478,11 +475,37 @@
       "designation": "MFG Compliance Specialist",
       "img": "nodata.png"
     }
-    
   ],
-  "TPC": [ 
-    "- item 1",
-    "- item 2",
-    "- item 3"
+  "TPC": [
+    {
+      "name": "Addisson Salazar",
+      "designation": "Universitat Politecnica de Valencia, Spain",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Ahrar Husain",
+      "designation": "Jamia Millia Islamia Faculty, India",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Ali H. Wheeb",
+      "designation": "University of Baghdad, Iraq",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Angela Lee S.H",
+      "designation": "Sunway University, Malaysia",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Badrul Hisham Ahmad",
+      "designation": "Universiti Teknikal Malaysia Melaka, Malaysia",
+      "img": "nodata.png"
+    },
+    {
+      "name": "Bibudhendu Pati",
+      "designation": "Rama Devi Women's University, India",
+      "img": "nodata.png"
+    }
   ]
 }

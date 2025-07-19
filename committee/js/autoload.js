@@ -19,39 +19,54 @@ document.addEventListener("DOMContentLoaded", function () {
         const grid = document.createElement("div");
         grid.className = "members-grid";
 
-        // Add each member to the grid
-        members.forEach((member) => {
-          const card = document.createElement("div");
-          card.className = "member-card";
+        if (category === "TPC") {
+          // Render as a bullet list
+          const list = document.createElement("ul");
+          list.className = "tpc-list";
 
-          const content = `
-                        <div class="member-content">
-                            <div class="member-header">
-                                ${
-                                  member.img && member.img !== ""
-                                    ? `<img src="${
-                                        member.img.search("http") !== 0
-                                          ? "/committee/resources/images/"
-                                          : ""
-                                      }${member.img}" 
-                                        alt="${
-                                          member.name
-                                        }" class="member-image">`
-                                    : '<div class="member-image has-background-grey-light"></div>'
-                                }
-                                <div>
-                                    <p class="member-name">${member.name}</p>
-                                    <p class="member-designation">${
-                                      member.designation
-                                    }</p>
-                                </div>
-                            </div>
-                        </div>
-                    `;
+          members.forEach((member) => {
+            const listItem = document.createElement("li");
+            listItem.innerHTML = `<strong>${member.name}</strong>, ${member.designation}`;
+            list.appendChild(listItem);
+          });
 
-          card.innerHTML = content;
-          grid.appendChild(card);
-        });
+          section.appendChild(list);
+        } else {
+          // Render grid with member cards as before
+          const grid = document.createElement("div");
+          grid.className = "members-grid";
+
+          members.forEach((member) => {
+            const card = document.createElement("div");
+            card.className = "member-card";
+
+            const content = `
+      <div class="member-content">
+        <div class="member-header">
+          ${
+            member.img && member.img !== ""
+              ? `<img src="${
+                  member.img.search("http") !== 0
+                    ? "/committee/resources/images/"
+                    : ""
+                }${member.img}" 
+                alt="${member.name}" class="member-image">`
+              : '<div class="member-image has-background-grey-light"></div>'
+          }
+          <div>
+            <p class="member-name">${member.name}</p>
+            <p class="member-designation">${member.designation}</p>
+          </div>
+        </div>
+      </div>
+    `;
+
+            card.innerHTML = content;
+            grid.appendChild(card);
+          });
+
+          section.appendChild(grid);
+        }
 
         section.appendChild(grid);
         container.appendChild(section);
