@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const grid = document.createElement("div");
         grid.className = "members-grid";
 
-        if (category === "TPC") {
+        if (category === "Technical Program Committee") {
           // Render as a bullet list
           const list = document.createElement("ul");
           list.className = "tpc-list";
