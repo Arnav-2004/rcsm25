@@ -294,8 +294,20 @@
       </div>
       <section>
         <marquee>
-          <b>Accepted papers will be published into IEEE Xplore (Scopus indexed) | Accepted papers will be published into IEEE Xplore (Scopus indexed). </b>
+          <b>Accepted papers will be published into IEEE Xplore (Scopus indexed). </b>
         </marquee>
+
+        <p id="blink">Accepted papers will be published into IEEE Xplore (Scopus indexed)</p>
+    <script type="text/javascript">
+        let blink =
+            document.getElementById('blink');
+
+        setInterval(function () {
+            blink.style.opacity =
+                (blink.style.opacity == 0 ? 1 : 0);
+        }, 1000); 
+    </script>
+
         <div class="falling-leaves"></div>
         <div class="container">
           <div class="row text-center justify-content-center pt-2">
