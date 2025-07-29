@@ -42,7 +42,7 @@
       "img": "sushma_gupta.png"
     }
   ],
-  "Secretaries": [
+  "Program Chair": [
     {
       "name": "Dr. Yadunath Pathak",
       "designation": "CSE, MANIT Bhopal",
@@ -59,7 +59,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOtT_yaeO-LmWZUHLyE_6WLst8rCJeJpiRQ&s"
     }
   ],
-  "Publicity & Technical Sessions Chairs": [
+  "Publicity & Technical Chairs": [
     {
       "name": "Dr. Prashant Singh Rana",
       "designation": "Thapar Patiala",
@@ -84,6 +84,18 @@
       "name": "Dr. Ashish Kumar Sahu",
       "designation": "CSE, MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyKzI47rNvt2Aeh1tvs_s3XpGhMiGYhvRSQ&s"
+    }
+  ],
+    "Finance Chairs": [
+    {
+      "name": "Dr. Prashant Singh Rana",
+      "designation": "Thapar Patiala",
+      "img": "https://www.thapar.edu/webroot/files/faculty/341/1505985206341.png"
+    },
+    {
+      "name": "Dr. Vivek Tiwari",
+      "designation": "CSE, ABV-IIITM Gwalior",
+      "img": "https://www.iiitm.ac.in/images/demo/teachers/1690439255_vk%20jpeg.jpg"
     }
   ],
   "Website Chairs": [
