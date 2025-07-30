@@ -284,6 +284,9 @@
       "img": "https://www.iiitm.ac.in/images/demo/teachers/1677492702_PIC_Mahendra%20K.%20Shukla.jpg"
     }
   ],
+
+
+
   "International Advisory Committee": [
     {
       "name": "Dr. Parteek Bhatia",
@@ -350,6 +353,11 @@
       "name": "Dr. Kuljeet Kaur",
       "designation": "École de technologie supérieure, Canada",
       "img": "https://www.etsmtl.ca/uploads/P20200917-Kuljeet-Kaur-002.jpg"
+    },
+    {
+      "name": "Mr. Prassanna Rao Rajgopal",
+      "designation": "Industry Principal, Infosys, USA",
+      "img": "Prassanna Rao Rajgopal.jpeg"
     },
     {
       "name": "Dr. Amritpal Kaur",
@@ -434,7 +442,6 @@
 {"name":"Neetesh Kumar Gupta", "designation":"Professor, LNCT Bhopal", "img":"nodata.png"},
 {"name":"Nivedita Rahul", "designation":"Guidewire Manager / Business Architecture Manager, Accenture", "img":"nodata.png"},
 {"name":"Paras Choudhary", "designation":"Senior Manager, Amazon Ads", "img":"nodata.png"},
-{"name":"Prassanna Rao Rajgopal", "designation":"Distinguished Engineer, Cybersecurity, Infosys, USA", "img":"nodata.png"},
 {"name":"Partha Sarathi Reddy Pedda Muntala", "designation":"Software Engineer, Cisco Systems Inc", "img":"nodata.png"},
 {"name":"Pratheep Ramanujam", "designation":"Vice President at Goldman Sachs", "img":"nodata.png"},
 {"name":"Raghava Chellu", "designation":"Innovation Technologist, Equifax", "img":"nodata.png"},
