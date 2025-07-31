@@ -432,7 +432,7 @@
 {"name":"Jasminder Kaur Sandhu", "designation":"IILM University, Greater Noida", "img":"nodata.png"},
 {"name":"Kiran Kumar Pappula", "designation":"Senior Software Engineer, Covius", "img":"nodata.png"},
 {"name":"Krishna Chaitanya Chaganti", "designation":"Associate Director", "img":"nodata.png"},
-{"name":"Mallesh Deshapaga", "designation":"Synoptek LLC", "img":"nodata.png"},
+/*{"name":"Mallesh Deshapaga", "designation":"Synoptek LLC", "img":"nodata.png"},*/
 {"name":"Manoj Pal", "designation":"Artnet Worldwide Corporation", "img":"nodata.png"},
 {"name":"Meet Harish Thakkar", "designation":"Software Engineer", "img":"nodata.png"},
 {"name":"Megha Bhushan", "designation":"University of Sevilla, Spain", "img":"nodata.png"},
@@ -442,6 +442,7 @@
 {"name":"Nayan Goel", "designation":"Principle App Security Engineer", "img":"nodata.png"},
 {"name":"Neetesh Kumar Gupta", "designation":"Professor, LNCT Bhopal", "img":"nodata.png"},
 {"name":"Nivedita Rahul", "designation":"Guidewire Manager / Business Architecture Manager, Accenture", "img":"nodata.png"},
+{"name":"Navom Saxena", "designation":"Senior Machine Learning Engineer, Meta", "img":"nodata.png"},
 {"name":"Paras Choudhary", "designation":"Senior Manager, Amazon Ads", "img":"nodata.png"},
 {"name":"Partha Sarathi Reddy Pedda Muntala", "designation":"Software Engineer, Cisco Systems Inc", "img":"nodata.png"},
 {"name":"Pratheep Ramanujam", "designation":"Vice President at Goldman Sachs", "img":"nodata.png"},
