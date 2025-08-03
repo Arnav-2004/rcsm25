@@ -45,64 +45,59 @@
   "Program Chairs": [
     {
       "name": "Dr. Yadunath Pathak",
-      "designation": "CSE, MANIT Bhopal",
+      "designation": "MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtU8dP9qOQND-Q1ZFWRJVgDjYlD5wENibDQ&s"
     },
     {
       "name": "Dr. Vijay B Semwal",
-      "designation": "CSE, MANIT Bhopal",
+      "designation": "MANIT Bhopal",
       "img": "vijay.png"
     },
     {
       "name": "Dr. Amit Ojha",
-      "designation": "EE, MANIT Bhopal",
+      "designation": "MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOtT_yaeO-LmWZUHLyE_6WLst8rCJeJpiRQ&s"
     }
   ],
   "Publicity & Technical Chairs": [
     {
       "name": "Dr. Prashant Singh Rana",
-      "designation": "Thapar Patiala",
+      "designation": "Thapar Univeristy, Patiala",
       "img": "https://www.thapar.edu/webroot/files/faculty/341/1505985206341.png"
     },
     {
       "name": "Dr. Vivek Tiwari",
-      "designation": "CSE, ABV-IIITM Gwalior",
+      "designation": "ABV-IIITM Gwalior",
       "img": "https://www.iiitm.ac.in/images/demo/teachers/1690439255_vk%20jpeg.jpg"
     },
     {
       "name": "Dr. Mitul Ahirwal",
-      "designation": "CSE, MANIT Bhopal",
+      "designation": "MANIT Bhopal",
       "img": "https://scrs.in/uploads/members/file_05d37ef.jpg"
     },
     {
-      "name": "Dr. Surendra Suri",
-      "designation": "CSE, MANIT Bhopal",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nuaDLpHprUBNIzChq-bj0UZlXiHEZ4FoGg&s"
-    },
-    {
       "name": "Dr. Ashish Kumar Sahu",
-      "designation": "CSE, MANIT Bhopal",
+      "designation": "MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyKzI47rNvt2Aeh1tvs_s3XpGhMiGYhvRSQ&s"
     }
   ],
     "Finance Chairs": [
     {
-      "name": "Dr. Prashant Singh Rana",
-      "designation": "Thapar Patiala",
-      "img": "https://www.thapar.edu/webroot/files/faculty/341/1505985206341.png"
+      "name": "Dr. Surendra Suri",
+      "designation": "MANIT Bhopal",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nuaDLpHprUBNIzChq-bj0UZlXiHEZ4FoGg&s"
     },
     {
-      "name": "Dr. Vivek Tiwari",
-      "designation": "CSE, ABV-IIITM Gwalior",
-      "img": "https://www.iiitm.ac.in/images/demo/teachers/1690439255_vk%20jpeg.jpg"
+      "name": "Prof. MPS Chawla",
+      "designation": "SGSITS Indore",
+      "img": "mps_chawla-resize.webp"
     }
   ],
   "Website Chairs": [
     {
       "name": "Dr. Rahul Chaurshiya",
       "designation": "ECE, MANIT Bhopal",
-      "img": "https://irins.org/assets/profile_images/161854.jpg"
+      "img": "Rahul Kumar Chaurasiya.jpg"
     },
     {
       "name": "Dr. Vikram Garg",
