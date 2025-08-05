@@ -301,6 +301,51 @@
 
   <body>
     <style>
+      /* Adjust navbar container */
+      @media (min-width: 992px) {
+        header .container {
+          max-width: 100%;
+          padding: 0 15px;
+        }
+
+        /* Compact logo */
+        .csbclogo img {
+          width: 160px !important; /* Reduced from 200px */
+        }
+
+        /* Tighten navbar spacing */
+        .navbar-nav {
+          gap: 4px; /* Reduced space between items */
+        }
+
+        .nav-item {
+          padding: 0 4px;
+        }
+
+        .nav-link {
+          font-size: 0.9rem;
+          padding: 0.5rem 0.5rem;
+          white-space: nowrap;
+        }
+
+        /* Compact dropdowns */
+        .dropdown-menu {
+          min-width: 180px;
+        }
+
+        /* Remove the negative margin that was pushing navbar right */
+        nav.navbar {
+          margin-left: 0 !important;
+          padding: 0 5px;
+        }
+
+        /* Adjust submit button */
+        .btnhover {
+          padding: 10px 12px !important;
+          font-size: 14px !important;
+        }
+      }
+
       @media (max-width: 980px) {
         .csbclogo {
           display: none;
@@ -309,8 +354,7 @@
       @media (min-width: 1080px) {
         nav {
           max-width: fit-content;
-          right: -50px;
-          margin-left: -25px;
+          right: 70px;
         }
         .navmobile {
           display: none;
@@ -438,7 +482,7 @@
                           >
                             RCSM Broucher
                           </a>
-                        </li>                               
+                        </li>
                       </ul>
                     </li>
 
@@ -447,7 +491,7 @@
                         >Committee</a
                       >
                     </li>
-                                        
+
                     <li class="nav-item">
                       <a class="nav-link" href="../keynote/index.html"
                         >Speakers</a
