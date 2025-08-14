@@ -385,9 +385,19 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToalsYozSVFj5R9jAHsLqfg7JaiSI-IM3_gA&s"
     },
     {
+      "name": "Rahul Rishi Sharma",
+      "designation": "Stony Brook University, USA",
+      "img": ""
+    },
+    {
       "name": "Dr. Muskan Garg",
       "designation": "Mayo Clinic Rochester, USA",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQod3bDsvThg-jkTy22BirH6Bt6sSKaE14XvQ&s"
+    },
+    {
+      "name": "Jagrati Bhardwaj",
+      "designation": "Stony Brook University, USA",
+      "img": ""
     },
     {
       "name": "Dr. Roopam Bamal",
@@ -462,6 +472,7 @@
 {"name":"Megha Bhushan", "designation":"University of Sevilla, Spain", "img":"nodata.png"},
 {"name":"Megha Bhushan", "designation":"University of Sevilla, Spain", "img":"nodata.png"},
 {"name":"Mohammad Moniruzzaman", "designation":"Senior Software Engineer, WorldLink US", "img":"nodata.png"},
+{"name":"Jagrati Bhardwaj", "designation":"Stony Brook University, USA", "img":"nodata.png"},
 {"name":"Naga Murali Krishna Koneru", "designation":"Technical Architect at Hexaware Technologies Inc", "img":"nodata.png"},
 {"name":"Nagireddy Karri", "designation":"Senior IT Administrator Database, Sherwin-Williams", "img":"nodata.png"},
 {"name":"Navdeep Singh", "designation":"Principal Product Manager, Walmart", "img":"nodata.png"},
@@ -475,7 +486,7 @@
 {"name":"Pratheep Ramanujam", "designation":"Vice President at Goldman Sachs", "img":"nodata.png"},
 {"name":"Raghava Chellu", "designation":"Innovation Technologist, Equifax", "img":"nodata.png"},
 {"name":"Rahul Kumar Gour", "designation":"Bansal Institute of Science and Technology", "img":"nodata.png"},
-{"name":"Rahul Kumar Gour", "designation":"Bansal Institute of Science and Technology", "img":"nodata.png"},
+{"name":"Rahul Rishi Sharma", "designation":"Stony Brook University, USA", "img":"nodata.png"},
 {"name":"Ramgopal Kashyap", "designation":"Guru Ghasidas Vishwavidyalaya, Bilaspur", "img":"nodata.png"},
 {"name":"Sai Raghavendra Varanasi", "designation":"Software Change/Release Manager", "img":"nodata.png"},
 {"name":"Sairohith Thummarakoti", "designation":"IEEE Computer Society", "img":"nodata.png"},
