@@ -59,6 +59,8 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOtT_yaeO-LmWZUHLyE_6WLst8rCJeJpiRQ&s"
     }
   ],
+
+
   "Publicity & Technical Chairs": [
     {
       "name": "Dr. Prashant Singh Rana",
@@ -81,6 +83,8 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyKzI47rNvt2Aeh1tvs_s3XpGhMiGYhvRSQ&s"
     }
   ],
+
+
     "Finance Chairs": [
     {
       "name": "Dr. Surendra Suri",
@@ -93,6 +97,8 @@
       "img": "mps_chawla-resize.webp"
     }
   ],
+
+
   "Website Chairs": [
     {
       "name": "Dr. Rahul Chaurshiya",
@@ -103,8 +109,15 @@
       "name": "Dr. Vikram Garg",
       "designation": "AI, MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4oYWcn8-sUCcIpJa5wCrtusKN8qHlbYvCMQ&s"
+    },
+    {
+      "name": "Pragya Dwivedi",
+      "designation": "Independent Researcher",
+      "img": "Pragya Dwivedi.png"
     }
   ],
+
+
   "Hospitality & Registration Chairs": [
     {
       "name": "Dr. Akash Sinha",
