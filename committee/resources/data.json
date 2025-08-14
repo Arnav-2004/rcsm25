@@ -6,6 +6,8 @@
       "img": "Prof. K. K. Shukla_1.JPG"
     }
   ],
+
+
   "Patrons": [
     {
       "name": "Dr. SPS Rajput",
@@ -18,22 +20,26 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJL8_vLo5iirvXj8aQ8rJeeEU3xsafKW4h2A&s"
     }
   ],
+
+
   "Honorary Chairs": [
     {
       "name": "Dr. GS Tomar",
-      "designation": "Director (RECS) & Chair IEEE M.P. Section",
+      "designation": "Director (RECS) & Chair IEEE MP Section",
       "img": "https://ieeemp.org/img/Geetam%20Tomar.jpg"
     },
     {
       "name": "Dr. KV Arya",
-      "designation": "ABV- IIITM Gwalior",
+      "designation": "ABV-IIITM Gwalior",
       "img": "https://www.iiitm.ac.in/images/demo/teachers/1718101905_KVARYA.jpg"
     }
   ],
+
+
   "General Chairs": [
     {
       "name": "Dr. Deepak Singh Tomar",
-      "designation": "HoD(CSE), MANIT Bhopal",
+      "designation": "HoD (CSE), MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV1QCF5R4bw33XyBJwhuMtNEXzf5sKjHjzcw&s"
     },
     {
@@ -42,6 +48,8 @@
       "img": "sushma_gupta.png"
     }
   ],
+
+
   "Program Chairs": [
     {
       "name": "Dr. Yadunath Pathak",
@@ -102,12 +110,12 @@
   "Website Chairs": [
     {
       "name": "Dr. Rahul Chaurshiya",
-      "designation": "ECE, MANIT Bhopal",
+      "designation": "MANIT Bhopal",
       "img": "Rahul Kumar Chaurasiya.jpg"
     },
     {
       "name": "Dr. Vikram Garg",
-      "designation": "AI, MANIT Bhopal",
+      "designation": "MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4oYWcn8-sUCcIpJa5wCrtusKN8qHlbYvCMQ&s"
     },
     {
@@ -121,12 +129,12 @@
   "Hospitality & Registration Chairs": [
     {
       "name": "Dr. Akash Sinha",
-      "designation": "CSE, MANIT Bhopal",
+      "designation": "MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTnUXFFtXeqaThfJS_-Cy3MPXbfboosItMjQ&s"
     },
     {
       "name": "Dr. Vaibhav Soni",
-      "designation": "CSE, MANIT Bhopal",
+      "designation": "MANIT Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWqhd5zhekcutAPvuZdjy3wPPnK7mRfNQSXg&s"
     }
   ],
@@ -153,7 +161,7 @@
     },
     {
       "name": "Prof. Mukesh Singh",
-      "designation": "TIET",
+      "designation": "Thapar Univeristy, Patiala",
       "img": "https://eied.thapar.edu/files/faculty/253/1505834556253.jpg"
     },
     {
@@ -198,7 +206,7 @@
     },
     {
       "name": "Prof. Nitesh Purohit",
-      "designation": "Director, SGIT, Indore",
+      "designation": "Director, SGIT Indore",
       "img": "nitesh.png"
     },
     {
@@ -213,12 +221,12 @@
     },
     {
       "name": "Dr Jitendra Agrawal",
-      "designation": "School of Information Technology, RGPV",
+      "designation": "RGPV Bhopal",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRouHAlEvEaqIyQC6ZC_TRZEWcbnS2WsBGzvg&s"
     },
     {
       "name": "Dr. Meera Dhabu",
-      "designation": "Department of Computer Science & Engineering, VNIT",
+      "designation": "VNIT Nagpur",
       "img": "https://vnit.ac.in/engineering/cse/wp-content/uploads/2024/05/MeeraDhabu_Photo_Sept23.jpg"
     },
     {
