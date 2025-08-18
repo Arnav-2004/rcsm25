@@ -435,11 +435,11 @@
       "designation": "Independent Researcher, Canada",
       "img": "gurinder.png"
     },
-  /* {
+    {
       "name": "Hardik Chandulal Patel",
       "designation": "Independent Researcher",
       "img": ""
-    },*/
+    },
     {
       "name": "Dr. Ravneet Kaur Sidhu",
       "designation": "Independent Researcher, Canada",
@@ -461,6 +461,8 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFg9fA6xQAl1Ju91WTw1Yo8S99k778RtkXw&s"
     }
   ],
+
+
   "Technical Program Committee": [
 {"name":"Abhijit Chanda", "designation":"Data Scientist", "img":"nodata.png"},
 {"name":"Addisson Salazar", "designation":"Universitat Politecnica de Valencia, Spain", "img":"nodata.png"},
@@ -512,7 +514,6 @@
 {"name":"Nayan Goel", "designation":"Principle App Security Engineer", "img":"nodata.png"},
 {"name":"Neetesh Kumar Gupta", "designation":"Professor, LNCT Bhopal", "img":"nodata.png"},
 {"name":"Nivedita Rahul", "designation":"Guidewire Manager / Business Architecture Manager, Accenture", "img":"nodata.png"},
-//{"name":"Navom Saxena", "designation":"Senior Machine Learning Engineer, Meta", "img":"nodata.png"},
 {"name":"Olufemi Theophilus", "designation":"Senior Supply Chain Manager", "img":"nodata.png"},
 {"name":"Paras Choudhary", "designation":"Senior Manager, Amazon Ads", "img":"nodata.png"},
 {"name":"Partha Sarathi Reddy Pedda Muntala", "designation":"Software Engineer, Cisco Systems Inc", "img":"nodata.png"},
@@ -524,7 +525,6 @@
 {"name":"Rahul Rishi Sharma", "designation":"Stony Brook University, USA", "img":"nodata.png"},
 {"name":"Ramgopal Kashyap", "designation":"Guru Ghasidas Vishwavidyalaya, Bilaspur", "img":"nodata.png"},
 {"name":"Sai Raghavendra Varanasi", "designation":"Software Change/Release Manager", "img":"nodata.png"},
-//{"name":"Sairohith Thummarakoti", "designation":"IEEE Computer Society", "img":"nodata.png"},
 {"name":"Sandeep Kumar Jangam", "designation":"Lead Consultant, Infosys Limited", "img":"nodata.png"},
 {"name":"Sangeeta Singh", "designation":"Independent Researcher", "img":"nodata.png"},
 {"name":"Sesha Sai Sravanthi Valiveti", "designation":".Net Technical Lead", "img":"nodata.png"},
