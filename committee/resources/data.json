@@ -446,9 +446,19 @@
       "img": "ravneet.png"
     },
     {
+      "name": "Md Habibur Rahman",
+      "designation": "Washington University of Science and Technology, USA",
+      "img": "Md Habibur Rahman.jpg"
+    },
+    {
       "name": "Dr. Megha Bhushan",
       "designation": "University of Sevilla, Spain",
       "img": "https://i1.rgstatic.net/ii/profile.image/11431281298712821-1734519513531_Q512/Megha-Bhushan.jpg"
+    },
+    {
+      "name": "Sagar Vishnubhai Sheta",
+      "designation": "Software Developer, Lathia investments LLC",
+      "img": "Sagar Vishnubhai Sheta.jpg"
     },
     {
       "name": "Dr. Shahid Ahmad Bhat",
@@ -541,6 +551,7 @@
 {"name":"Soni Changlani", "designation":"Professor, LNCT Bhopal", "img":"nodata.png"},
 {"name":"Sreejith Geetha Sukumaran Nair", "designation":"Founder & CEO - MIST Global LLC", "img":"nodata.png"},
 {"name":"Sreenivas Reddy Sagili", "designation":"Software Engineer", "img":"nodata.png"},
+{"name":"Sridhar Korimilli", "designation":"Independent Researcher", "img":"nodata.png"},
 {"name":"Srinivasan Narayanan", "designation":"Oracle Cloud", "img":"nodata.png"},
 {"name":"Srinivasa Ravi Teja Peri", "designation":"Principal Software Engineer", "img":"nodata.png"},
 {"name":"Suchismita Chatterjee", "designation":"Cyber Security Product Specialist, World Wide Technology", "img":"nodata.png"},
