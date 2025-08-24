@@ -453,7 +453,7 @@
     {
       "name": "Dr. Megha Bhushan",
       "designation": "University of Sevilla, Spain",
-      "img": "https://i1.rgstatic.net/ii/profile.image/11431281298712821-1734519513531_Q512/Megha-Bhushan.jpg"
+      "img": "Megha Bhushan.jpg"
     },
     {
       "name": "Sagar Vishnubhai Sheta",
@@ -514,7 +514,6 @@
 {"name":"Kishore Bandela", "designation":"Civil Engineer", "img":"nodata.png"},
 {"name":"Manoj Pal", "designation":"Artnet Worldwide Corporation", "img":"nodata.png"},
 {"name":"Meet Harish Thakkar", "designation":"Software Engineer", "img":"nodata.png"},
-{"name":"Megha Bhushan", "designation":"University of Sevilla, Spain", "img":"nodata.png"},
 {"name":"Megha Bhushan", "designation":"University of Sevilla, Spain", "img":"nodata.png"},
 {"name":"Mohammad Moniruzzaman", "designation":"Senior Software Engineer, WorldLink US", "img":"nodata.png"},
 {"name":"Jagrati Bhardwaj", "designation":"Stony Brook University, USA", "img":"nodata.png"},
