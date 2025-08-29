@@ -451,6 +451,11 @@
       "img": "Md Habibur Rahman.jpg"
     },
     {
+      "name": "Ashutosh Agarwal",
+      "designation": "Stevens Institute of Technology, Hoboken, USA",
+      "img": ""
+    },
+    {
       "name": "Dr. Megha Bhushan",
       "designation": "University of Sevilla, Spain",
       "img": "Megha Bhushan.jpg"
@@ -482,7 +487,6 @@
 {"name":"Akib Khandey", "designation":"Cluster University, Srinagar", "img":"nodata.png"},
 {"name":"Ali H. Wheeb", "designation":"University of Baghdad, Iraq", "img":"nodata.png"},
 {"name":"Amarnath Reddy Kalllam", "designation":"Cognizant Technology Solutions", "img":"nodata.png"},
-{"name":"Amarnath Reddy Kalllam", "designation":"Cognizant Technology Solutions", "img":"nodata.png"},
 {"name":"Amit Kumar", "designation":"Principal Software Engineer", "img":"nodata.png"},
 {"name":"Anbarasu Arivoli", "designation":"Lead Software Engineer", "img":"nodata.png"},
 {"name":"Anand Singh", "designation":"Professor, LNCT Bhopal", "img":"nodata.png"},
@@ -492,6 +496,7 @@
 {"name":"Arun Ramakrishnan", "designation":"Co-founder & CTO, LogicFlo AI", "img":"nodata.png"},
 {"name":"Aravind Raghu", "designation":"Financial Expert", "img":"nodata.png"},
 {"name":"Arun Rana", "designation":"MITS, Gwalior", "img":"nodata.png"},
+{"name":"Ashutosh Agarwal", "designation":"Stevens Institute of Technology, Hoboken, USA", "img":"nodata.png"},
 {"name":"Ashutosh Mahamuni", "designation":"MFG Compliance Specialist", "img":"nodata.png"},
 {"name":"Ashwaray Chaba", "designation":"Cloud Marketing Engineer", "img":"nodata.png"},
 {"name":"Badal Bhushan", "designation":"Distinguished Engineer, Cybersecurity, Walmart, USA", "img":"nodata.png"},
