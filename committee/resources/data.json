@@ -456,6 +456,11 @@
       "img": "Megha Bhushan.jpg"
     },
     {
+      "name": "Ashutosh Agarwal",
+      "designation": "Stevens Institute of Technology, Hoboken, USA",
+      "img": "Ashutosh Agarwal.jpg"
+    },
+    {
       "name": "Sagar Vishnubhai Sheta",
       "designation": "Software Developer, Lathia investments LLC",
       "img": "Sagar Vishnubhai Sheta.jpg"
@@ -491,6 +496,7 @@
 {"name":"Arun Ramakrishnan", "designation":"Co-founder & CTO, LogicFlo AI", "img":"nodata.png"},
 {"name":"Aravind Raghu", "designation":"Financial Expert", "img":"nodata.png"},
 {"name":"Arun Rana", "designation":"MITS, Gwalior", "img":"nodata.png"},
+{"name":"Ashutosh Agarwal", "designation":"Stevens Institute of Technology, Hoboken, USA", "img":"nodata.png"},
 {"name":"Ashutosh Mahamuni", "designation":"MFG Compliance Specialist", "img":"nodata.png"},
 {"name":"Ashwaray Chaba", "designation":"Cloud Marketing Engineer", "img":"nodata.png"},
 {"name":"Badal Bhushan", "designation":"Distinguished Engineer, Cybersecurity, Walmart, USA", "img":"nodata.png"},
