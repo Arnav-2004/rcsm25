@@ -1,0 +1,25 @@
+name: Push as Owner for Vercel Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  re-push-as-owner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Git user
+        run: |
+          git config --global user.name "Arnav-2004"
+          git config --global user.email "arnavrangwani@gmail.com"
+
+      - name: Push as owner
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git remote set-url origin https://Arnav-2004:${GH_PAT}@github.com/Arnav-2004/rcsm25.git
+          git push origin main
