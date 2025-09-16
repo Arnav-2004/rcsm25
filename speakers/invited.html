@@ -686,6 +686,32 @@
       </div>
     </section>
 
+    <!-- Speaker Details Modal -->
+    <div
+      class="modal fade"
+      id="speakerModal"
+      tabindex="-1"
+      aria-labelledby="speakerModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="speakerModalLabel">Speaker Details</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body" id="speakerModalBody">
+            <!-- Speaker details will be injected here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
     <br />
 
     <section class="footer-top"></section>
@@ -895,44 +921,57 @@
         .querySelector(".speakers-slider")
         .addEventListener("mouseleave", startAutoSlide);
 
-      // Speaker details functionality
+      // Speaker details functionality (modal)
       function showSpeakerDetails(speakerId) {
-        // You can implement modal or redirect to detailed page
         const speakerData = {
           1: {
             name: "Mr. Bikash Agarwal",
             role: "Principal Engineer, System Design, T-Mobile USA Inc",
-            details: "Detailed information about Mr. Bikash Agarwal...",
+            details:
+              "Mr. Bikash Agarwal is a Principal Engineer at T-Mobile USA Inc, specializing in system design and innovation in mobile networks. His talk will cover the latest advancements in 5G and smart mobility systems, focusing on practical deployment and future trends.",
           },
           2: {
             name: "Mr. Pradeep Kiran Veeravalli",
             role: "Lead Member of Technical Staff / Salesforce INC",
             details:
-              "Detailed information about Mr. Pradeep Kiran Veeravalli...",
+              "Mr. Pradeep Kiran Veeravalli is a Lead Member of Technical Staff at Salesforce INC, with expertise in cloud computing and enterprise AI. His session will discuss scalable AI solutions for business and the integration of ethical practices in large-scale deployments.",
           },
           3: {
             name: "Ms. Sangeeta Singh",
             role: "Firmware Engineer III, VenSysUpgrade, Inc.",
-            details: "Detailed information about Ms. Sangeeta Singh...",
+            details:
+              "Ms. Sangeeta Singh is a Firmware Engineer III at VenSysUpgrade, Inc., focusing on embedded systems and automation. Her talk will highlight responsible AI in embedded devices, including transparency, accountability, and safety in industrial automation.",
           },
           4: {
             name: "Dr. Rajesh Kumar",
             role: "Senior Research Scientist, Microsoft Research",
-            details: "Detailed information about Dr. Rajesh Kumar...",
+            details:
+              "Dr. Rajesh Kumar is a Senior Research Scientist at Microsoft Research, working on advanced algorithms and smart mobility. His presentation will explore the intersection of AI, data science, and transportation systems for future cities.",
           },
           5: {
             name: "Prof. Anita Sharma",
             role: "Professor, IIT Delhi",
-            details: "Detailed information about Prof. Anita Sharma...",
+            details:
+              "Prof. Anita Sharma is a Professor at IIT Delhi, renowned for her research in computer science and smart mobility. Her invited talk will address the challenges and opportunities in computing for sustainable urban mobility.",
           },
         };
 
         const speaker = speakerData[speakerId];
         if (speaker) {
-          alert(
-            `Speaker: ${speaker.name}\nRole: ${speaker.role}\n\n${speaker.details}`
+          // Build modal content
+          const modalBody = document.getElementById("speakerModalBody");
+          modalBody.innerHTML = `
+            <h4 class="mb-2">${speaker.name}</h4>
+            <p class="text-muted mb-3">${speaker.role}</p>
+            <p>${speaker.details}</p>
+          `;
+          document.getElementById("speakerModalLabel").textContent =
+            speaker.name + " - Talk Detail";
+          // Show modal using Bootstrap
+          var modal = new bootstrap.Modal(
+            document.getElementById("speakerModal")
           );
-          // Replace with modal or navigation to detailed page
+          modal.show();
         }
       }
 
