@@ -933,7 +933,7 @@
             role: "Software Engineer, Sbase Technologies, Inc",
             profile: "Mr. Damodhara Reddy Palavali is a Software Engineer, Sbase Technologies, Inc.",
             title: "Talk Brief detail. Talk Brief detail. Talk Brief detail. Talk Brief detail. Talk Brief detail. ",  
-            LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/damodharap/">Click Here</a>,
+            LinkedIn: "https://www.linkedin.com/in/damodharap/",
           },
           2: {
             name: "Mr. Pradeep Kiran Veeravalli",
@@ -968,13 +968,9 @@
           modalBody.innerHTML = `
             <h4 class="mb-2">${speaker.name}</h4>
             <p class="text-muted mb-3">${speaker.role}</p>
-            <p><b>Talk Title:</b>${speaker.profile}</p>
-            <p><b>Profile:</b>  </p>
-
-            
-
-            <p><b>LinkedIn Profile:</b> ${speaker.LinkedIn}</p>
-            
+            <p><b>Talk Title:</b>${speaker.title}</p>
+            <p><b>Profile:</b>${speaker.profile}</p>
+            <p><b>LinkedIn:</b><a target="_blank" href=${speaker.LinkedIn}>Click Here</a></p>
           `;
           document.getElementById("speakerModalLabel").textContent =
             speaker.name + " - Talk Detail";
