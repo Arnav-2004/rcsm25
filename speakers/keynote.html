@@ -580,78 +580,116 @@
           </button>
 
           <div class="slider-container" id="sliderContainer">
-            <!-- Speaker 1 - Ms. Sangeeta Singh -->
+            <!-- Speaker 1 - Mr. Damodhara Reddy Palavali -->
             <div class="speaker-slide">
               <img
-                src="../image/speakers/arnav.jpg"
+                src="../image/speakers/Damodhara Reddy Palavali.avif"
+                alt="Mr. Damodhara Reddy Palavali"
+                class="speaker-image-slider"
+              />
+              <h4 class="speaker-name-slider">Mr. Damodhara Reddy Palavali</h4>
+              <p class="speaker-role-slider">
+                Software Engineer, Sbase Technologies, Inc
+              </p>
+              <a
+                href="#"
+                class="talk-detail-btn"
+                onclick="showSpeakerDetails(1)"
+                >Talk Detail</a
+              >
+            </div>
+
+            <!-- Speaker 2 - Ms. Sangeeta Singh -->
+            <div class="speaker-slide">
+              <img
+                src="../image/speakers/Sangeeta Singh.avif"
                 alt="Ms. Sangeeta Singh"
                 class="speaker-image-slider"
               />
               <h4 class="speaker-name-slider">Ms. Sangeeta Singh</h4>
               <p class="speaker-role-slider">
-                Firmware Engineer III, VenSysUpgrade, Inc.
+                Independent Researcher
               </p>
               <a
                 href="#"
                 class="talk-detail-btn"
-                onclick="showKeynoteDetails(1)"
+                onclick="showSpeakerDetails(2)"
                 >Talk Detail</a
               >
             </div>
 
-            <!-- Speaker 2 - Additional Keynote Speaker -->
+            <!-- Speaker 3 - Mr. Navdeep Singh -->
             <div class="speaker-slide">
               <img
-                src="../image/speakers/arnav.jpg"
-                alt="Dr. Michael Johnson"
+                src="../image/speakers/Navdeep Singh.avif"
+                alt="Mr. Navdeep Singh"
                 class="speaker-image-slider"
               />
-              <h4 class="speaker-name-slider">Dr. Michael Johnson</h4>
+              <h4 class="speaker-name-slider">Mr. Navdeep Singh</h4>
               <p class="speaker-role-slider">
-                Chief AI Researcher, Google DeepMind
+                Product Leader, Walmart
               </p>
               <a
                 href="#"
                 class="talk-detail-btn"
-                onclick="showKeynoteDetails(2)"
+                onclick="showSpeakerDetails(3)"
                 >Talk Detail</a
               >
             </div>
 
-            <!-- Speaker 3 - Additional Keynote Speaker -->
+            <!-- Speaker 4 - Mr. Ritesh Tandon -->
             <div class="speaker-slide">
               <img
-                src="../image/speakers/arnav.jpg"
-                alt="Prof. Sarah Chen"
+                src="../image/speakers/Ritesh Tandon.avif"
+                alt="Mr. Ritesh Tandon"
                 class="speaker-image-slider"
               />
-              <h4 class="speaker-name-slider">Prof. Sarah Chen</h4>
+              <h4 class="speaker-name-slider">Mr. Ritesh Tandon</h4>
               <p class="speaker-role-slider">
-                Professor of Computer Science, MIT
+                Independent Researcher
               </p>
               <a
                 href="#"
                 class="talk-detail-btn"
-                onclick="showKeynoteDetails(3)"
+                onclick="showSpeakerDetails(4)"
                 >Talk Detail</a
               >
             </div>
 
-            <!-- Speaker 4 - Additional Keynote Speaker -->
+            <!-- Speaker 5 - Mr. Vikas Jodigatte Nagaraj -->
             <div class="speaker-slide">
               <img
-                src="../image/speakers/arnav.jpg"
-                alt="Dr. Rajesh Gupta"
+                src="../image/speakers/Vikas Jodigatte Nagaraj.avif"
+                alt="Mr. Vikas Jodigatte Nagaraj"
                 class="speaker-image-slider"
               />
-              <h4 class="speaker-name-slider">Dr. Rajesh Gupta</h4>
+              <h4 class="speaker-name-slider">Mr. Vikas Jodigatte Nagaraj</h4>
               <p class="speaker-role-slider">
-                Director of Research, Amazon Web Services
+                Member Technical Staff, AMD Inc
               </p>
               <a
                 href="#"
                 class="talk-detail-btn"
-                onclick="showKeynoteDetails(4)"
+                onclick="showSpeakerDetails(5)"
+                >Talk Detail</a
+              >
+            </div>
+
+            <!-- Speaker 6 - Mr. Chaitanya Gunupudi -->
+            <div class="speaker-slide">
+              <img
+                src="../image/speakers/Chaitanya Gunupudi.avif"
+                alt="Mr. Chaitanya Gunupudi"
+                class="speaker-image-slider"
+              />
+              <h4 class="speaker-name-slider">Mr. Chaitanya Gunupudi</h4>
+              <p class="speaker-role-slider">
+                Independent Researcher and Cloud Engineer
+              </p>
+              <a
+                href="#"
+                class="talk-detail-btn"
+                onclick="showSpeakerDetails(6)"
                 >Talk Detail</a
               >
             </div>
@@ -661,6 +699,7 @@
             <i class="fas fa-chevron-right"></i>
           </button>
         </div>
+
 
         <!-- Slider Dots -->
         <div class="slider-dots" id="sliderDots">
@@ -911,44 +950,53 @@
         .addEventListener("mouseleave", startAutoSlide);
 
       // Speaker details functionality (modal)
-      function showKeynoteDetails(speakerId) {
+      function showSpeakerDetails(speakerId) {
         const speakerData = {
           1: {
-            name: "Ms. Sangeeta Singh",
-            role: "Firmware Engineer III, VenSysUpgrade, Inc.",
-            title: "Ethical AI in Practice: From Principles to Proof",
-            profile:
-              "Sangeeta Singh worked as a Embedded Software Professional and Test Engineer. She encompasses the developing simulators and automated test scripts, enhancing product quality, and supporting pilot production runs. The commitment to innovation and quality in firmware design is not just a professional mandate but also a personal passion, driving me to constantly explore new technologies that can transform the operational efficiency of embedded devices.",
-            abstract:
-              'Artificial Intelligence is reshaping products, processes, and policy—but speed without stewardship erodes trust. This invited talk translates the IEEE AI Ethics Awareness Module into a practical, engineering-first playbook for responsible AI. We\'ll move beyond checklists to show how transparency, accountability, privacy, fairness, robustness, and human oversight can be operationalized across the AI lifecycle—from problem framing and data design to model development, validation, deployment, and post-market monitoring. Drawing on real scenarios in embedded systems and industrial automation, I will demonstrate lightweight governance that fits fast development cycles: risk and impact screening at intake, dataset provenance and bias controls, model reporting (Cardfact sheets), safety cases and red-team tests, incident and drift response, and "human-in-the-loop" guardrails aligned with IEEE guidance. Attendees will leave with minimum-viable artefacts and decision points they can adopt immediately—whether procuring third-party models, tuning on domain data, or integrating AI into safety-critical workflows. The goal is simple: help teams ship AI that is not only innovative and compliant but measurably worthy of stakeholder trust.',
+            name: "Mr. Damodhara Reddy Palavali",
+            role: "Software Engineer, Sbase Technologies, Inc",
+            talkTitle: "Available Soon",  
+            abstract: "Available Soon",  
+            linkedIn: "https://www.linkedin.com/in/damodharap/",
+            
           },
           2: {
-            name: "Dr. Michael Johnson",
-            role: "Chief AI Researcher, Google DeepMind",
-            title: "The Future of Autonomous Systems: From Theory to Reality",
-            profile:
-              "Dr. Michael Johnson is a Chief AI Researcher at Google DeepMind, leading groundbreaking research in autonomous systems and machine learning. With over 15 years of experience in AI research, he has contributed to major breakthroughs in deep learning and reinforcement learning algorithms.",
-            abstract:
-              "This keynote will explore the evolution of autonomous systems from theoretical concepts to real-world applications. We'll discuss the challenges and opportunities in developing truly intelligent systems that can operate safely and efficiently in complex environments. The talk will cover recent advances in deep reinforcement learning, multi-agent systems, and the integration of AI with robotics for smart mobility applications.",
+            name: "Ms. Sangeeta Singh",
+            role: "Independent Researcher",
+            talkTitle: "Ethical AI in Practice: From Principles to Proof",  
+            abstract: "Artificial intelligence is reshaping products, processes, and policy—but speed without stewardship erodes trust. This invited talk translates the IEEE AI Ethics Awareness Module into a practical, engineering-first playbook for responsible AI. We’ll move beyond checklists to show how transparency, accountability, privacy, fairness, robustness, and human oversight can be operationalized across the AI lifecycle—from problem framing and data design to model development, validation, deployment, and post-market monitoring. Drawing on real scenarios in embedded systems and industrial automation, I will demonstrate lightweight governance that fits fast development cycles: risk and impact screening at intake, dataset provenance and bias controls, model reporting (cards/fact sheets), safety cases and red-team tests, incident and drift response, and “human-in-the-loop” guardrails aligned with IEEE guidance. Attendees will leave with minimum-viable artifacts and decision points they can adopt immediately—whether procuring third-party models, tuning on domain data, or integrating AI into safety-critical workflows. The goal is simple: help teams ship AI that is not only innovative and compliant but measurably worthy of stakeholder trust.",  
+            linkedIn: "https://www.linkedin.com/in/sangeetasinghembeddedsystems",
           },
           3: {
-            name: "Prof. Sarah Chen",
-            role: "Professor of Computer Science, MIT",
-            title: "Quantum Computing Meets Smart Mobility: A New Paradigm",
-            profile:
-              "Prof. Sarah Chen is a renowned Professor of Computer Science at MIT, specializing in quantum computing and its applications. She has published over 100 papers in top-tier journals and conferences, and her work on quantum algorithms has received international recognition.",
-            abstract:
-              "As we enter the quantum era, this keynote will examine how quantum computing can revolutionize smart mobility systems. We'll explore quantum algorithms for optimization problems in transportation, traffic management, and route planning. The presentation will also discuss the current challenges and future prospects of implementing quantum solutions in real-world mobility applications.",
+            name: "Mr. Navdeep Singh",
+            role: "Product Leader, Walmart",
+            talkTitle: "Available Soon",  
+            abstract: "Available Soon",  
+            linkedIn: "https://www.linkedin.com/in/inavdeepsingh/",
+            
           },
           4: {
-            name: "Dr. Rajesh Gupta",
-            role: "Director of Research, Amazon Web Services",
-            title: "Cloud-Native AI: Scaling Intelligence for Smart Cities",
-            profile:
-              "Dr. Rajesh Gupta is the Director of Research at Amazon Web Services, overseeing cloud computing and AI initiatives. He has been instrumental in developing scalable cloud architectures and AI services that power millions of applications worldwide.",
-            abstract:
-              "This keynote will focus on cloud-native AI solutions for smart cities and mobility systems. We'll discuss how cloud computing enables the deployment of AI at scale, from edge computing to centralized processing. The talk will cover real-world case studies of smart city implementations, challenges in data privacy and security, and the future of distributed AI systems in urban environments.",
+            name: "Mr. Ritesh Tandon",
+            role: "Independent Researcher",
+            talkTitle: "Available Soon",  
+            abstract: "Available Soon",  
+            linkedIn: "https://www.linkedin.com/in/ritesh-tandon-3427481/",
           },
+          5: {
+            name: "Mr. Vikas Jodigatte Nagaraj",
+            role: "Member Technical Staff, AMD Inc",
+            talkTitle: "Available Soon",  
+            abstract: "Available Soon",  
+            linkedIn: "https://www.linkedin.com/in/vikasnagaraj/",
+          },
+          6: {
+            name: "Mr. Chaitanya Gunupudi",
+            role: "Independent Researcher and Cloud Engineer",
+            talkTitle: "Available Soon",  
+            abstract: "Available Soon",  
+            linkedIn: "https://www.linkedin.com/in/chaitanyagunupudi/",
+          },
+
         };
 
         const speaker = speakerData[speakerId];
@@ -956,24 +1004,14 @@
           // Build modal content
           const modalBody = document.getElementById("speakerModalBody");
           modalBody.innerHTML = `
-            <div class="text-center mb-4">
-              <img src="../image/speakers/arnav.jpg" alt="${speaker.name}" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
-              <h4 class="mb-2">${speaker.name}</h4>
-              <p class="text-muted mb-1">${speaker.role}</p>
-            </div>
-            <h5 class="text-primary mb-3">${speaker.title}</h5>
-            <div class="mb-4">
-              <h6><strong>Brief Profile:</strong></h6>
-              <p class="text-justify">${speaker.profile}</p>
-            </div>
-            <div class="mb-3">
-              <h6><strong>Abstract of the Talk:</strong></h6>
-              <p class="text-justify">${speaker.abstract}</p>
-            </div>
+            <h4 class="mb-2">${speaker.name}</h4>
+            <p class="text-muted mb-3">${speaker.role}</p>
+            <p><b>Title: </b>${speaker.talkTitle}</p>
+            <p><b>Abstract: </b>${speaker.abstract}</p>
+            <p><b>LinkedIn: </b><a target="_blank" href=${speaker.linkedIn}>Click Here</a></p>
           `;
           document.getElementById("speakerModalLabel").textContent =
-            "Keynote Speaker - " + speaker.name;
-
+            "Talk Detail";
           // Show modal using Bootstrap
           var modal = new bootstrap.Modal(
             document.getElementById("speakerModal")
