@@ -445,6 +445,12 @@
       "designation": "Independent Researcher, Canada",
       "img": "ravneet.png"
     },
+   {
+      "name": "Kumar Kasimala",
+      "designation": "Software Engineering Architect, Salesforce Inc",
+      "img": "Kumar Kasimala.jpeg"
+    },
+    
     {
       "name": "Md Habibur Rahman",
       "designation": "Washington University of Science and Technology, USA",
@@ -545,6 +551,7 @@
 {"name":"Karthik Parvathinathan", "designation":"Independent Researcher", "img":"nodata.png"},
 {"name":"Kiran Kumar Pappula", "designation":"Senior Software Engineer, Covius", "img":"nodata.png"},
 {"name":"Kishore Bandela", "designation":"Civil Engineer", "img":"nodata.png"},
+{"name":"Kumar Kasimala", "designation":"Software Engineering Architect, Salesforce Inc", "img":"nodata.png"},
 {"name":"Lingaraj Kothokatta", "designation":"Cloud & SaaS Quality Expert", "img":"nodata.png"},
 {"name":"Lukesh Singla", "designation":"Independent Researcher", "img":"nodata.png"},
 {"name":"Manohar Reddy Sokkula", "designation":"Independent Researcher", "img":"nodata.png"},
