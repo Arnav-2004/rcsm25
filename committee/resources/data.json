@@ -505,9 +505,14 @@
       "name": "Sagar Gupta",
       "designation": "IT Solutions Manager, EST03 Inc. USA",
       "img": "Sagar Gupta.jpg"
+    },
+    {
+      "name": "Dr. Quazi Taif Sadat",
+      "designation": "Bangladesh University",
+      "img": "Dr. Quazi Taif Sadat.avif"
     }
-  ],
-
+  ],    
+  
 
   "Technical Program Committee": [
 {"name":"Aakash Mor", "designation":"University of the Arts London", "img":"nodata.png"},
