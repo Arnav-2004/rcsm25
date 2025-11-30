@@ -1305,6 +1305,74 @@ path {
   gap: 2rem;
 }
 
+/* Guest section with 3 columns */
+.guest-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .guest-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .guest-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Member card styles for guest section */
+.member-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.member-content {
+  padding: 1.5rem;
+}
+
+.member-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+  border: 2px solid #3498db;
+  flex-shrink: 0;
+}
+
+.member-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.member-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.2rem;
+}
+
+.member-designation {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-bottom: 0.2rem;
+}
+
 .track-card {
   background: #ffffff;
   margin-top: -4rem;
