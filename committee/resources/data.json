@@ -513,6 +513,13 @@
     }
   ],    
   
+"Session Chair": [
+{"name":"Aakash Mor", "designation":"University of the Arts London", "img":"nodata.png"},
+{"name":"Abhinav Kumar", "designation":"Software Development Manager", "img":"nodata.png"},
+{"name":"Addisson Salazar", "designation":"Universitat Politecnica de Valencia, Spain", "img":"nodata.png"},
+{"name":"Aditya Vilas Deshpande", "designation":"Senior Software Engineer", "img":"nodata.png"},
+{"name":"Yash Banthia", "designation":"Chief Technology Officer", "img":"nodata.png"}
+],
 
   "Technical Program Committee": [
 {"name":"Aakash Mor", "designation":"University of the Arts London", "img":"nodata.png"},
