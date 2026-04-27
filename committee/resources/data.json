@@ -520,6 +520,7 @@
 {"name":"Dr. Vaibhav Agarwal", "designation":"Assistant Professor, NIT Kurukshetra", "img":"nodata.png"},
 {"name":"Mr. Harshendra Gite", "designation":"Mr. Harshendra Gite, Sr Director, LTIMindtree Ltd, Greensboro, USA", "img":"nodata.png"},
 {"name":"Mr. Virendra Singh Chawra", "designation":"Deloitte Consulting LLP, Raleigh, USA", "img":"nodata.png"}
+{"name":"Mr. Wazeed Shirdi", "designation":"Data Scientist, Amazon", "img":"nodata.png"}
 ],
 
   "Technical Program Committee": [
@@ -706,6 +707,7 @@
 {"name":"Vishal Paul", "designation":"Senior Software Engineer", "img":"nodata.png"},
 {"name":"Vishwanath Karad", "designation":"MIT World Peace University, Pune", "img":"nodata.png"},
 {"name":"Wazahat Chowdhury", "designation":"Independent Researcher", "img":"nodata.png"},
+{"name":"Wazeed Shirdi", "designation":"Data Scientist, Amazon", "img":"nodata.png"},
 {"name":"Yash Banthia", "designation":"Chief Technology Officer", "img":"nodata.png"}
 ]
 }
