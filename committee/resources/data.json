@@ -520,7 +520,9 @@
 {"name":"Dr. Vaibhav Agarwal", "designation":"Assistant Professor, NIT Kurukshetra", "img":"nodata.png"},
 {"name":"Mr. Harshendra Gite", "designation":"Mr. Harshendra Gite, Sr Director, LTIMindtree Ltd, Greensboro, USA", "img":"nodata.png"},
 {"name":"Mr. Virendra Singh Chawra", "designation":"Deloitte Consulting LLP, Raleigh, USA", "img":"nodata.png"},
-{"name":"Mr. Wazeed Shirdi", "designation":"Data Scientist, Amazon", "img":"nodata.png"}
+{"name":"Mr. Wazeed Shirdi", "designation":"Data Scientist, Amazon", "img":"nodata.png"},
+{"name":"Mr. Ankit Anand", "designation":"Independent Researcher", "img":"nodata.png"},
+{"name":"Mr. Upendra Singh Jadon", "designation":"Independent Researcher", "img":"nodata.png"}
 ],
 
   "Technical Program Committee": [
@@ -541,6 +543,7 @@
 {"name":"Angela Lee S.H", "designation":"Sunway University, Malaysia", "img":"nodata.png"},
 {"name":"Anjali Kale", "designation":"Finance Controller", "img":"nodata.png"},
 {"name":"Anjani Kumar Polinati", "designation":"Primoris Systems", "img":"nodata.png"},
+{"name":"Ankit Anand", "designation":"Independent Researcher", "img":"nodata.png"},
 {"name":"Anuj Kumar Pal", "designation":"Sagar Institute of Science Technology and Research Bhopal, MP", "img":"nodata.png"},
 {"name":"Apoorv Birthare", "designation":"Founding Engineer & Head of Engineering", "img":"nodata.png"},
 {"name":"Aravind Narayanan", "designation":"InsurTech Advisory Leader, Fitchburg State University, ValueMomentum Inc", "img":"nodata.png"},
@@ -693,6 +696,7 @@
 {"name":"Swati Karni", "designation":"Federal Financial Cloud Expert", "img":"nodata.png"},
 {"name":"Tanay Kulkarni", "designation":"Infrastructure Management Consultant, Freese and Nichols Inc.", "img":"nodata.png"},
 {"name":"Udith Vaidyanathan", "designation":"Co-founder & CTO, LogicFlo AI", "img":"nodata.png"},
+{"name":"Upendra Singh Jadon", "designation":"Independent Researcher", "img":"nodata.png"},
 {"name":"Vamshi Krishna Jakkula", "designation":"Independent Researcher", "img":"nodata.png"},
 {"name":"Venkata Manoj Kumar Somisetty", "designation":"Principal Solutions Architect, SAP", "img":"nodata.png"},
 {"name":"Venkata Sai Nageen Kanikanti", "designation":"Fidelity Investments", "img":"nodata.png"},
