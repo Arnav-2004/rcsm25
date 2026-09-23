@@ -527,11 +527,6 @@
       "img": "Karthik Juluri.avif"
     },
     {
-      "name": "Sangeeth Kumar Vanam",
-      "designation": "Lead Performance Engineer and Independent Researcher",
-      "img": "Sangeeth Kumar Vanam.avif"
-    },
-    {
       "name": "Pranayachandanreddy Gottimukkala",
       "designation": "Sr. Data Engineer and Independent Researcher",
       "img": "Pranayachandanreddy Gottimukkala.avif"
@@ -548,7 +543,8 @@
 {"name":"Mr. Wazeed Shirdi", "designation":"Data Scientist, Amazon", "img":"nodata.png"},
 {"name":"Mr. Ankit Anand", "designation":"Independent Researcher", "img":"nodata.png"},
 {"name":"Mr. Upendra Singh Jadon", "designation":"Independent Researcher", "img":"nodata.png"},
-{"name":"Mr. Pratik Mahajan", "designation":"Independent Researcher, Texas, USA", "img":"nodata.png"}
+{"name":"Mr. Pratik Mahajan", "designation":"Independent Researcher, Texas, USA", "img":"nodata.png"},
+{"name":"Mr. Sangeeth Kumar Vanam", "designation":"Lead Performance Engineer and Independent Researcher", "img":"nodata.png"}
 ],
 
   "Technical Program Committee": [
