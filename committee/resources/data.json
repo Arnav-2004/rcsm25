@@ -507,16 +507,6 @@
       "img": "Sagar Gupta.jpg"
     },
     {
-      "name": "Dr. Quazi Taif Sadat",
-      "designation": "Bangladesh University",
-      "img": "Dr. Quazi Taif Sadat.avif"
-    },
-    {
-      "name": "Harshavardhan Peddireddy",
-      "designation": "Meijer Inc, USA",
-      "img": "Harshavardhan Peddireddy.avif"
-    },
-    {
       "name": "Srinivas Nune",
       "designation": "Principal Software Engineer and Independent Researcher",
       "img": "Srinivas Nune.avif"
@@ -530,6 +520,16 @@
       "name": "Pranayachandanreddy Gottimukkala",
       "designation": "Sr. Data Engineer and Independent Researcher",
       "img": "Pranayachandanreddy Gottimukkala.avif"
+    },
+    {
+      "name": "Dr. Quazi Taif Sadat",
+      "designation": "Bangladesh University",
+      "img": "Dr. Quazi Taif Sadat.avif"
+    },
+    {
+      "name": "Harshavardhan Peddireddy",
+      "designation": "Meijer Inc, USA",
+      "img": "Harshavardhan Peddireddy.avif"
     }
   ],    
   
