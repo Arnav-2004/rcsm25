@@ -536,18 +536,19 @@
 "Session Chair": [
 {"name":"Dr. Dilip Singh Sisodia", "designation":"Associate Professor, NIT Raipur", "img":"nodata.png"},
 {"name":"Dr. Shivani Goel", "designation":"Senior Professor, SR University, Warangal", "img":"nodata.png"},
-{"name":"Dr. Vandana Shakya", "designation":"Assistant Professor, MANIT Bhopal", "img":"nodata.png"},
 {"name":"Dr. Vaibhav Agarwal", "designation":"Assistant Professor, NIT Kurukshetra", "img":"nodata.png"},
-{"name":"Mr. Harshendra Gite", "designation":"Mr. Harshendra Gite, Sr Director, LTIMindtree Ltd, Greensboro, USA", "img":"nodata.png"},
-{"name":"Mr. Virendra Singh Chawra", "designation":"Deloitte Consulting LLP, Raleigh, USA", "img":"nodata.png"},
-{"name":"Mr. Wazeed Shirdi", "designation":"Data Scientist, Amazon", "img":"nodata.png"},
+{"name":"Dr. Vandana Shakya", "designation":"Assistant Professor, MANIT Bhopal", "img":"nodata.png"},
 {"name":"Mr. Ankit Anand", "designation":"Independent Researcher", "img":"nodata.png"},
-{"name":"Mr. Upendra Singh Jadon", "designation":"Independent Researcher", "img":"nodata.png"},
-{"name":"Mr. Pratik Mahajan", "designation":"Independent Researcher, Texas, USA", "img":"nodata.png"},
-{"name":"Mr. Sangeeth Kumar Vanam", "designation":"Lead Performance Engineer and Independent Researcher", "img":"nodata.png"},
 {"name":"Mr. Gopinathan Rathinavelu", "designation":"Data Architect, Arizona, USA", "img":"nodata.png"},
+{"name":"Mr. Harshendra Gite", "designation":"Mr. Harshendra Gite, Sr Director, LTIMindtree Ltd, Greensboro, USA", "img":"nodata.png"},
+{"name":"Mr. Nagesh Sawant", "designation":"Principal Engineer, T-Mobile, Seattle, USA", "img":"nodata.png"},
+{"name":"Mr. Pratik Mahajan", "designation":"Independent Researcher, Texas, USA", "img":"nodata.png"},
+{"name":"Mr. Sandeep Das", "designation":"Independent Researcher", "img":"nodata.png"},
+{"name":"Mr. Sangeeth Kumar Vanam", "designation":"Lead Performance Engineer and Independent Researcher", "img":"nodata.png"},
 {"name":"Mr. Sri Lakshmi Narasimha Charan Teja Reminisetty", "designation":"Senior Tech Product Manager, USA", "img":"nodata.png"},
-{"name":"Mr. Nagesh Sawant", "designation":"Principal Engineer, T-Mobile, Seattle, USA", "img":"nodata.png"}
+{"name":"Mr. Upendra Singh Jadon", "designation":"Independent Researcher", "img":"nodata.png"},
+{"name":"Mr. Virendra Singh Chawra", "designation":"Deloitte Consulting LLP, Raleigh, USA", "img":"nodata.png"},
+{"name":"Mr. Wazeed Shirdi", "designation":"Data Scientist, Amazon", "img":"nodata.png"}
 ],
 
   "Technical Program Committee": [
